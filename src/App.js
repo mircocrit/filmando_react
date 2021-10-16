@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Start from './components/Start';
 import FormUserDetails from './components/FormUserDetails';
 import FormPersonalDetails from './components/FormPersonalDetails';
+import Result1 from './components/Result1';
 import Success from './components/Success';
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
   
   const [users, setUsers] = useState([])
   const [contexts, setContexts] = useState([])
+  const [prefs, setPrefs] = useState([])
 
   const nextStep = () => {
     setStep(step + 1);
@@ -48,6 +50,20 @@ const App = () => {
     setContexts([...contexts, data])
   }
 
+  // Add Prefs
+  const addPrefs = async (pref) => {
+    const res = await fetch('http://localhost:5000/prefs', {
+      method: 'POST',
+      headers: {
+        'Content-type': 'application/json',
+      },
+      body: JSON.stringify(pref),
+    })
+
+    const data = await res.json()
+    setPrefs([...prefs, data])
+  }
+
   switch (step) {
     case 1:
       return (
@@ -72,6 +88,14 @@ const App = () => {
         />
       );
     case 4:
+      return (
+        <Result1
+          nextStep={nextStep}
+          prevStep={prevStep}
+          onAdd={addPrefs}
+        />
+      );
+    case 5:
       return <Success />;
     default:
       (console.log('This is a multi-step form built with React.'))
