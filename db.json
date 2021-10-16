@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "eta": 1,
+      "genere": "uomo",
+      "titoloStudio": 8,
+      "frequenza": 11,
+      "recSys": 14
+    },
+    {
+      "id": 2,
+      "eta": 2,
+      "genere": "donna",
+      "titoloStudio": 9,
+      "frequenza": 11,
+      "recSys": 14
+    },
+    {
+      "eta": "1",
+      "genere": "uomo",
+      "titoloStudio": "8",
+      "frequenza": "12",
+      "recSys": "14",
+      "id": 3
+    },
+    {
+      "eta": "2",
+      "genere": "donna",
+      "titoloStudio": "7",
+      "frequenza": "11",
+      "recSys": "14",
+      "id": 4
+    }
+  ],
+  "contexts": [
+    {
+      "attenzione": "",
+      "compagnia": "",
+      "umore": "",
+      "id": 1
+    }
+  ]
+}

@@ -2,15 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-export class Start extends Component {
-  continue = e => {
-    e.preventDefault();
-    this.props.nextStep();
-  };
-
-  render() {
-    const { values, handleChange } = this.props;
-    
+const Start = ({nextStep}) => {
     return (
     <div className="container">
       <nav className="navbar navbar-light bg-dark">
@@ -47,7 +39,7 @@ export class Start extends Component {
 
         <div class="row text-center">
           <div class="col">
-            <button type="button" onClick={this.continue} class="btn btn-primary btn-lg">Start!</button>
+            <button type="button" onClick={nextStep} class="btn btn-primary btn-lg">Start!</button>
           </div>
         </div>
 
@@ -67,10 +59,9 @@ export class Start extends Component {
         <br/>
       </div>
     </footer>
-  </div>
-        
+  </div>     
     );
-  }
+  
 }
 
 export default Start;
