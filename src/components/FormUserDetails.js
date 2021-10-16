@@ -11,7 +11,6 @@ const FormUserDetails = ({nextStep, prevStep, onAdd }) => {
 
   const onSubmit = (e) => {
     e.preventDefault()
-    console.log(eta, genere, titoloStudio, frequenza, recSys)
     onAdd({ eta, genere, titoloStudio, frequenza, recSys})
     nextStep()
   }

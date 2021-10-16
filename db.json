@@ -1,33 +1,33 @@
 {
   "users": [
     {
-      "id": 1,
-      "eta": 1,
+      "eta": "1",
       "genere": "uomo",
-      "titoloStudio": 8,
-      "frequenza": 11,
-      "recSys": 14
-    },
-    {
-      "id": 2,
-      "eta": 2,
-      "genere": "donna",
-      "titoloStudio": 9,
-      "frequenza": 11,
-      "recSys": 14
+      "titoloStudio": "6",
+      "frequenza": "11",
+      "recSys": "14",
+      "id": 1
     },
     {
       "eta": "1",
       "genere": "uomo",
-      "titoloStudio": "8",
-      "frequenza": "12",
+      "titoloStudio": "6",
+      "frequenza": "11",
+      "recSys": "14",
+      "id": 2
+    },
+    {
+      "eta": "2",
+      "genere": "uomo",
+      "titoloStudio": "6",
+      "frequenza": "11",
       "recSys": "14",
       "id": 3
     },
     {
       "eta": "2",
-      "genere": "donna",
-      "titoloStudio": "7",
+      "genere": "uomo",
+      "titoloStudio": "6",
       "frequenza": "11",
       "recSys": "14",
       "id": 4
@@ -39,6 +39,12 @@
       "compagnia": "",
       "umore": "",
       "id": 1
+    },
+    {
+      "attenzione": "1",
+      "compagnia": "",
+      "umore": "",
+      "id": 2
     }
   ]
 }

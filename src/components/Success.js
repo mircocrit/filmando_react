@@ -1,29 +1,38 @@
 import React, { Component } from 'react';
-import Dialog from '@mui/material/Dialog';
-import AppBar from '@mui/material/AppBar';
-import Container from '@mui/material/Container';
+import { useState } from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-export class Success extends Component {
-  continue = e => {
-    e.preventDefault();
-    // PROCESS FORM //
-    this.props.nextStep();
-  };
-
-  back = e => {
-    e.preventDefault();
-    this.props.prevStep();
-  };
-
-  render() {
+const Success = () => {
     return (
-        <Container>
-            <AppBar title="Success" />
-            <h1>Thank You For Your Submission</h1>
-            <p>You will get an email with further instructions.</p>
-        </Container>
-    );
-  }
+    <div className="container">
+        <nav className="navbar navbar-light bg-dark">
+            <a className="navbar-brand text-light" href="#">
+                <img src="icons/movie2.png" width="30" height="30" alt=""/> Filmando
+            </a>
+        </nav>
+
+      <div class="container-fluid bg-light">
+          <div class="row text-center">
+            <div class="col">
+              <h1 class="display-4">Thank you</h1>
+            </div>
+          </div>
+      </div>
+        <footer>
+          <div class="footer bg-info">
+            <h2 align="center">Progetto di Tesi di Laurea in Informatica</h2>
+            <p class="lead" align="center">Laureando: <b>Mirco Sipone</b></p>
+            <p class="lead" align="center">Relatore: dott. <b>Cataldo Musto</b></p>
+
+            <div class="d-flex justify-content-center">
+              <div> <a href="https://www.uniba.it/"><img src="icons/Logo_Uniba.png"></img></a> </div>
+              <div> <a href="http://www.di.uniba.it/~swap/"><img height="60" src="icons/swap.PNG"></img></a></div>
+            </div>
+            <br/>
+          </div>
+        </footer>
+    </div>
+  );
 }
 
 export default Success;

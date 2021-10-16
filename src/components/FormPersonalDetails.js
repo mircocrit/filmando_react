@@ -9,8 +9,12 @@ const FormPersonalDetails = ({nextStep, prevStep, onAdd }) => {
 
   const onSubmit = (e) => {
     e.preventDefault()
-    onAdd({ attenzione, compagnia, umore})
     console.log(attenzione, compagnia, umore)
+    if (!attenzione && !compagnia && !umore) {
+      alert('Please add a context')
+      return
+    }
+    onAdd({ attenzione, compagnia, umore})
     nextStep()
   }
 
@@ -38,7 +42,7 @@ const FormPersonalDetails = ({nextStep, prevStep, onAdd }) => {
                   <label for="attenzione">
                     <h4>Your level of attention</h4>
                   </label>
-                  <select class="form-control" name="attenzione" onchange={(e) => setAttenzione(e.target.value)}>
+                  <select class="form-control" name="attenzione" onChange={(e) => setAttenzione(e.target.value)}>
                     <option value="0">Indifferent</option>
                     <option value="1">High</option>
                     <option value="2">Low</option>
@@ -51,7 +55,7 @@ const FormPersonalDetails = ({nextStep, prevStep, onAdd }) => {
                   <label for="compagnia">
                     <h4>Your company</h4>
                   </label>
-                  <select class="form-control" name="compagnia" onchange={(e) => setCompagnia(e.target.value)}>
+                  <select class="form-control" name="compagnia" onChange={(e) => setCompagnia(e.target.value)}>
                     <option value="0">Indifferent</option>
                     <option value="3">Partner</option>
                     <option value="4">Family</option>
@@ -65,7 +69,7 @@ const FormPersonalDetails = ({nextStep, prevStep, onAdd }) => {
                   <label for="umore">
                     <h4>Your mood</h4>
                   </label>
-                  <select class="form-control" name="umore" onchange={(e) => setUmore(e.target.value)}>
+                  <select class="form-control" name="umore" onChange={(e) => setUmore(e.target.value)}>
                     <option value="0">Indifferent</option>
                     <option value="6">Good</option>
                     <option value="7">Not good</option>

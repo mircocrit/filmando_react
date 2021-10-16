@@ -3,7 +3,6 @@ import { useState } from 'react'
 import Start from './components/Start';
 import FormUserDetails from './components/FormUserDetails';
 import FormPersonalDetails from './components/FormPersonalDetails';
-import Confirm from './components/Confirm';
 import Success from './components/Success';
 
 const App = () => {
@@ -73,13 +72,6 @@ const App = () => {
         />
       );
     case 4:
-      return (
-        <Confirm
-          nextStep={nextStep}
-          prevStep={prevStep}
-        />
-      );
-    case 5:
       return <Success />;
     default:
       (console.log('This is a multi-step form built with React.'))
