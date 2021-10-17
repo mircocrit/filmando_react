@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react'
 import Start from './components/Start';
 import FormUserDetails from './components/FormUserDetails';
-import FormPersonalDetails from './components/FormPersonalDetails';
+import FormContexts from './components/FormContexts';
 import Result1 from './components/Result1';
 import Success from './components/Success';
 
@@ -98,7 +98,7 @@ const App = () => {
         />
       }
       {(step==3) &&
-        <FormPersonalDetails
+        <FormContexts
           nextStep={nextStep}
           prevStep={prevStep}
           onAdd={addContexts}
@@ -122,7 +122,6 @@ const App = () => {
           <h2 align="center">Progetto di Tesi di Laurea in Informatica</h2>
           <p class="lead" align="center">Laureando: <b>Mirco Sipone</b></p>
           <p class="lead" align="center">Relatore: dott. <b>Cataldo Musto</b></p>
-
           <div class="d-flex justify-content-center">
             <div> <a href="https://www.uniba.it/"><img src="icons/Logo_Uniba.png"></img></a> </div>
             <div> <a href="http://www.di.uniba.it/~swap/"><img height="60" src="icons/swap.PNG"></img></a></div>
@@ -130,6 +129,7 @@ const App = () => {
           <br/>
         </div>
       </footer>
+      
   </div>
   )
 

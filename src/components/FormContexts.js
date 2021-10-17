@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const FormPersonalDetails = ({nextStep, prevStep, onAdd , fetchMovie}) => {
+const FormContexts = ({nextStep, prevStep, onAdd , fetchMovie}) => {
   const [attenzione, setAttenzione] = useState('')
   const [compagnia, setCompagnia] = useState('')
   const [umore, setUmore] = useState('')
@@ -77,4 +77,4 @@ const FormPersonalDetails = ({nextStep, prevStep, onAdd , fetchMovie}) => {
     );
 }
 
-export default FormPersonalDetails;
+export default FormContexts;

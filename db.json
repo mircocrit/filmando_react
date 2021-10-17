@@ -55,6 +55,14 @@
       "frequenza": "2",
       "recSys": "si",
       "id": 60
+    },
+    {
+      "eta": "1",
+      "genere": "donna",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 61
     }
   ],
   "contexts": [
@@ -99,6 +107,12 @@
       "compagnia": "",
       "umore": "",
       "id": 56
+    },
+    {
+      "attenzione": "High",
+      "compagnia": "",
+      "umore": "",
+      "id": 57
     }
   ],
   "unigrammi": [
