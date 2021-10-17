@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react'
 import Start from './components/Start';
-import FormUserDetails from './components/FormUserDetails';
+import FormUsers from './components/FormUsers';
 import FormContexts from './components/FormContexts';
 import Result1 from './components/Result1';
 import Success from './components/Success';
@@ -91,7 +91,7 @@ const App = () => {
         <Start nextStep={nextStep}/>
       }
       {(step==2) &&
-        <FormUserDetails
+        <FormUsers
           nextStep={nextStep}
           prevStep={prevStep}
           onAdd={addUsers}

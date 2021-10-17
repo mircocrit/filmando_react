@@ -63,6 +63,14 @@
       "frequenza": "1",
       "recSys": "si",
       "id": 61
+    },
+    {
+      "eta": "1",
+      "genere": "uomo",
+      "titoloStudio": "1",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 62
     }
   ],
   "contexts": [
@@ -113,6 +121,12 @@
       "compagnia": "",
       "umore": "",
       "id": 57
+    },
+    {
+      "attenzione": "High",
+      "compagnia": "",
+      "umore": "",
+      "id": 58
     }
   ],
   "unigrammi": [

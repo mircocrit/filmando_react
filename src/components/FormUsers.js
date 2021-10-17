@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const FormUserDetails = ({nextStep, prevStep, onAdd }) => {
+const FormUsers = ({nextStep, prevStep, onAdd }) => {
   const [eta, setEta] = useState('')
   const [genere, setGenere] = useState('')
   const [titoloStudio, setTitoloStudio] = useState('')
@@ -103,4 +103,4 @@ const FormUserDetails = ({nextStep, prevStep, onAdd }) => {
   );
 }
 
-export default FormUserDetails;
+export default FormUsers;
