@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from './Form';
 
 const Result1 = ({nextStep, prevStep, onAdd, randomMovie }) => {
-  const [id, setId] = useState(0) 
+  const [id, setId] = useState(10) 
   const [nome, setNome] = useState('') 
   const [anno, setAnno] = useState(0) 
   const [genere, setGenere] = useState([]) 
@@ -21,7 +21,6 @@ const Result1 = ({nextStep, prevStep, onAdd, randomMovie }) => {
   }
     const movie = randomMovie()
     fetchMovie(movie)
-
   }, [])
 
 

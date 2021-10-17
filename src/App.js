@@ -46,7 +46,6 @@ const App = () => {
       },
       body: JSON.stringify(context),
     })
-
     const data = await res.json()
     //console.log(data)
     setContexts([...contexts, data])
@@ -75,7 +74,6 @@ const App = () => {
       },
       body: JSON.stringify(pref),
     })
-
     const data = await res.json()
     setPrefs([...prefs, data])
   }

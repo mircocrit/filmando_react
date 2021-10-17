@@ -3,30 +3,40 @@
     {
       "eta": "1",
       "genere": "uomo",
-      "titoloStudio": "6",
-      "frequenza": "11",
-      "recSys": "14",
-      "id": 1
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 54
     },
     {
       "eta": "2",
-      "genere": "donna",
-      "titoloStudio": "7",
-      "frequenza": "12",
-      "recSys": "14",
-      "id": 53
+      "genere": "uomo",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 55
     }
   ],
-
   "contexts": [
     {
       "attenzione": "Low",
       "compagnia": "",
       "umore": "",
       "id": 50
+    },
+    {
+      "attenzione": "High",
+      "compagnia": "",
+      "umore": "",
+      "id": 51
+    },
+    {
+      "attenzione": "High",
+      "compagnia": "",
+      "umore": "",
+      "id": 52
     }
   ],
-  
   "unigrammi": [
     {
       "id": 1,
