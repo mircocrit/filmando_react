@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const FormPersonalDetails = ({nextStep, prevStep, onAdd }) => {
+const FormPersonalDetails = ({nextStep, prevStep, onAdd , fetchMovie}) => {
   const [attenzione, setAttenzione] = useState('')
   const [compagnia, setCompagnia] = useState('')
   const [umore, setUmore] = useState('')
@@ -14,7 +14,8 @@ const FormPersonalDetails = ({nextStep, prevStep, onAdd }) => {
       alert('Please add a context')
       return
     }
-    onAdd({ attenzione, compagnia, umore})
+    onAdd({attenzione, compagnia, umore})
+    fetchMovie(attenzione, compagnia, umore)
     nextStep()
   }
 
@@ -43,9 +44,9 @@ const FormPersonalDetails = ({nextStep, prevStep, onAdd }) => {
                     <h4>Your level of attention</h4>
                   </label>
                   <select class="form-control" name="attenzione" onChange={(e) => setAttenzione(e.target.value)}>
-                    <option value="0">Indifferent</option>
-                    <option value="1">High</option>
-                    <option value="2">Low</option>
+                    <option value="">Indifferent</option>
+                    <option value="High">High</option>
+                    <option value="Low">Low</option>
                   </select>
                 </div>
               </div>
@@ -56,10 +57,10 @@ const FormPersonalDetails = ({nextStep, prevStep, onAdd }) => {
                     <h4>Your company</h4>
                   </label>
                   <select class="form-control" name="compagnia" onChange={(e) => setCompagnia(e.target.value)}>
-                    <option value="0">Indifferent</option>
-                    <option value="3">Partner</option>
-                    <option value="4">Family</option>
-                    <option value="5">Friends</option>
+                    <option value="">Indifferent</option>
+                    <option value="Partner">Partner</option>
+                    <option value="Family">Family</option>
+                    <option value="Friends">Friends</option>
                   </select>
                 </div>
               </div>
@@ -70,9 +71,9 @@ const FormPersonalDetails = ({nextStep, prevStep, onAdd }) => {
                     <h4>Your mood</h4>
                   </label>
                   <select class="form-control" name="umore" onChange={(e) => setUmore(e.target.value)}>
-                    <option value="0">Indifferent</option>
-                    <option value="6">Good</option>
-                    <option value="7">Not good</option>
+                    <option value="">Indifferent</option>
+                    <option value="Good">Good</option>
+                    <option value="Bad">Not good</option>
                   </select>
                 </div>
               </div>

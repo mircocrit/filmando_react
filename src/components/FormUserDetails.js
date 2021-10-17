@@ -70,11 +70,11 @@ const FormUserDetails = ({nextStep, prevStep, onAdd }) => {
                   </label>
                   <select class="form-control" name="titoloStudio" required onChange={(e) => setTitoloStudio(e.target.value)}>
                     <option value="">Open this selection menu</option>
-                    <option value="6">High School</option>
-                    <option value="7">Bachelor's degree</option>
-                    <option value="8">Master's degree</option>
-                    <option value="9">Ph.D</option>
-                    <option value="10">Other</option>
+                    <option value="1">High School</option>
+                    <option value="2">Bachelor's degree</option>
+                    <option value="3">Master's degree</option>
+                    <option value="4">Ph.D</option>
+                    <option value="5">Other</option>
                   </select>
                 </div>
               </div>
@@ -88,9 +88,9 @@ const FormUserDetails = ({nextStep, prevStep, onAdd }) => {
                   </label>
                   <select class="form-control" name="frequenza" required onChange={(e) => setFrequenza(e.target.value)}>
                     <option value="">Open this selection menu</option>
-                    <option value="11">None or once a week</option>
-                    <option value="12">Twice a week</option>
-                    <option value="13">5 to 7 times a week</option>
+                    <option value="1">None or once a week</option>
+                    <option value="2">Twice a week</option>
+                    <option value="3">5 to 7 times a week</option>
                   </select>
                 </div>
               </div>
@@ -102,8 +102,8 @@ const FormUserDetails = ({nextStep, prevStep, onAdd }) => {
                   </label>
                   <select class="form-control" name="recSys" required onChange={(e) => setRecSys(e.target.value)}>
                     <option value="">Open this selection menu</option>
-                    <option value="14">Yes</option>
-                    <option value="15">No</option>
+                    <option value="si">Yes</option>
+                    <option value="no">No</option>
                   </select>
                 </div>
               </div>

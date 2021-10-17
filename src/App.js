@@ -8,7 +8,8 @@ import Success from './components/Success';
 
 const App = () => {
   const [step, setStep] = useState(1)
-  
+  const [listafilm, setListafilm] = useState([])
+
   const [users, setUsers] = useState([])
   const [contexts, setContexts] = useState([])
   const [prefs, setPrefs] = useState([])
@@ -32,7 +33,7 @@ const App = () => {
     })
 
     const data = await res.json()
-    console.log(data)
+    //console.log(data)
     setUsers([...users, data])
   }
 
@@ -47,7 +48,22 @@ const App = () => {
     })
 
     const data = await res.json()
+    //console.log(data)
     setContexts([...contexts, data])
+  }
+
+
+  //fetch movie list
+  const fetchMovie = async (attenzione, compagnia, umore) => {
+    const res = await fetch(`http://localhost:5000/unigrammi?attenzione=${attenzione}&compagnia=${compagnia}&umore=${umore}`)
+    const data = await res.json()
+    console.log(data)
+    setListafilm(data.listafilm)
+  }
+
+  //select random movie
+  const randomMovie = () => {
+    return listafilm[1]     //Math.floor(Math.random() * listafilm.length)  
   }
 
   // Add Prefs
@@ -85,6 +101,8 @@ const App = () => {
           nextStep={nextStep}
           prevStep={prevStep}
           onAdd={addContexts}
+          fetchMovie={fetchMovie}
+          
         />
       );
     case 4:
@@ -92,6 +110,7 @@ const App = () => {
         <Result1
           nextStep={nextStep}
           prevStep={prevStep}
+          randomMovie={randomMovie}
           onAdd={addPrefs}
         />
       );
