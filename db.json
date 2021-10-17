@@ -15,6 +15,46 @@
       "frequenza": "1",
       "recSys": "si",
       "id": 55
+    },
+    {
+      "eta": "1",
+      "genere": "uomo",
+      "titoloStudio": "1",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 56
+    },
+    {
+      "eta": "1",
+      "genere": "uomo",
+      "titoloStudio": "1",
+      "frequenza": "2",
+      "recSys": "si",
+      "id": 57
+    },
+    {
+      "eta": "2",
+      "genere": "uomo",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 58
+    },
+    {
+      "eta": "2",
+      "genere": "donna",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 59
+    },
+    {
+      "eta": "2",
+      "genere": "uomo",
+      "titoloStudio": "1",
+      "frequenza": "2",
+      "recSys": "si",
+      "id": 60
     }
   ],
   "contexts": [
@@ -35,6 +75,30 @@
       "compagnia": "",
       "umore": "",
       "id": 52
+    },
+    {
+      "attenzione": "High",
+      "compagnia": "",
+      "umore": "",
+      "id": 53
+    },
+    {
+      "attenzione": "High",
+      "compagnia": "Partner",
+      "umore": "Good",
+      "id": 54
+    },
+    {
+      "attenzione": "High",
+      "compagnia": "",
+      "umore": "",
+      "id": 55
+    },
+    {
+      "attenzione": "Low",
+      "compagnia": "",
+      "umore": "",
+      "id": 56
     }
   ],
   "unigrammi": [

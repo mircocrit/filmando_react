@@ -77,47 +77,61 @@ const App = () => {
     const data = await res.json()
     setPrefs([...prefs, data])
   }
+  
+  
+  return(
+    <div className="container">
+      <nav className="navbar navbar-light bg-dark">
+        <a className="navbar-brand text-light" href="#">
+            <img src="icons/movie2.png" width="30" height="30" alt=""/> Filmando
+          </a>
+      </nav>
 
-  switch (step) {
-    case 1:
-      return (
-        <Start
-          nextStep={nextStep}
-        />
-      );
-    case 2:
-      return (
+      {(step==1) &&
+        <Start nextStep={nextStep}/>
+      }
+      {(step==2) &&
         <FormUserDetails
           nextStep={nextStep}
           prevStep={prevStep}
           onAdd={addUsers}
         />
-      );
-    case 3:
-      return (
+      }
+      {(step==3) &&
         <FormPersonalDetails
           nextStep={nextStep}
           prevStep={prevStep}
           onAdd={addContexts}
           fetchMovie={fetchMovie}
-          
         />
-      );
-    case 4:
-      return (
+      }
+      {(step==4) && 
         <Result1
           nextStep={nextStep}
           prevStep={prevStep}
           randomMovie={randomMovie}
           onAdd={addPrefs}
         />
-      );
-    case 5:
-      return <Success />;
-    default:
-      (console.log('This is a multi-step form built with React.'))
-  }
+      }
+      {(step==5) && 
+         <Success />
+      }
+   
+      <footer>
+        <div class="footer bg-info">
+          <h2 align="center">Progetto di Tesi di Laurea in Informatica</h2>
+          <p class="lead" align="center">Laureando: <b>Mirco Sipone</b></p>
+          <p class="lead" align="center">Relatore: dott. <b>Cataldo Musto</b></p>
 
+          <div class="d-flex justify-content-center">
+            <div> <a href="https://www.uniba.it/"><img src="icons/Logo_Uniba.png"></img></a> </div>
+            <div> <a href="http://www.di.uniba.it/~swap/"><img height="60" src="icons/swap.PNG"></img></a></div>
+          </div>
+          <br/>
+        </div>
+      </footer>
+  </div>
+  )
 
 }
 
