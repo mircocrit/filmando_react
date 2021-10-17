@@ -71,6 +71,198 @@
       "frequenza": "1",
       "recSys": "si",
       "id": 62
+    },
+    {
+      "eta": "2",
+      "genere": "uomo",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 63
+    },
+    {
+      "eta": "2",
+      "genere": "donna",
+      "titoloStudio": "3",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 64
+    },
+    {
+      "eta": "3",
+      "genere": "uomo",
+      "titoloStudio": "1",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 65
+    },
+    {
+      "eta": "1",
+      "genere": "uomo",
+      "titoloStudio": "1",
+      "frequenza": "2",
+      "recSys": "si",
+      "id": 66
+    },
+    {
+      "eta": "2",
+      "genere": "donna",
+      "titoloStudio": "1",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 67
+    },
+    {
+      "eta": "1",
+      "genere": "uomo",
+      "titoloStudio": "3",
+      "frequenza": "2",
+      "recSys": "si",
+      "id": 68
+    },
+    {
+      "eta": "2",
+      "genere": "donna",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 69
+    },
+    {
+      "eta": "1",
+      "genere": "uomo",
+      "titoloStudio": "1",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 70
+    },
+    {
+      "eta": "2",
+      "genere": "uomo",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 71
+    },
+    {
+      "eta": "2",
+      "genere": "donna",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 72
+    },
+    {
+      "eta": "2",
+      "genere": "uomo",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 73
+    },
+    {
+      "eta": "2",
+      "genere": "donna",
+      "titoloStudio": "2",
+      "frequenza": "2",
+      "recSys": "si",
+      "id": 74
+    },
+    {
+      "eta": "1",
+      "genere": "donna",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 75
+    },
+    {
+      "eta": "1",
+      "genere": "donna",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 76
+    },
+    {
+      "eta": "1",
+      "genere": "donna",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 77
+    },
+    {
+      "eta": "2",
+      "genere": "donna",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 78
+    },
+    {
+      "eta": "2",
+      "genere": "uomo",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 79
+    },
+    {
+      "eta": "2",
+      "genere": "donna",
+      "titoloStudio": "2",
+      "frequenza": "2",
+      "recSys": "si",
+      "id": 80
+    },
+    {
+      "eta": "1",
+      "genere": "uomo",
+      "titoloStudio": "3",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 81
+    },
+    {
+      "eta": "1",
+      "genere": "uomo",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 82
+    },
+    {
+      "eta": "1",
+      "genere": "uomo",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 83
+    },
+    {
+      "eta": "1",
+      "genere": "donna",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 84
+    },
+    {
+      "eta": "1",
+      "genere": "donna",
+      "titoloStudio": "2",
+      "frequenza": "2",
+      "recSys": "si",
+      "id": 85
+    },
+    {
+      "eta": "1",
+      "genere": "uomo",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 86
     }
   ],
   "contexts": [
@@ -127,6 +319,150 @@
       "compagnia": "",
       "umore": "",
       "id": 58
+    },
+    {
+      "attenzione": "High",
+      "compagnia": "Family",
+      "umore": "",
+      "id": 59
+    },
+    {
+      "attenzione": "Low",
+      "compagnia": "",
+      "umore": "",
+      "id": 60
+    },
+    {
+      "attenzione": "Low",
+      "compagnia": "Family",
+      "umore": "Good",
+      "id": 61
+    },
+    {
+      "attenzione": "High",
+      "compagnia": "",
+      "umore": "",
+      "id": 62
+    },
+    {
+      "attenzione": "High",
+      "compagnia": "",
+      "umore": "",
+      "id": 63
+    },
+    {
+      "attenzione": "High",
+      "compagnia": "",
+      "umore": "",
+      "id": 64
+    },
+    {
+      "attenzione": "High",
+      "compagnia": "",
+      "umore": "",
+      "id": 65
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Partner",
+      "umore": "",
+      "id": 66
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Partner",
+      "umore": "",
+      "id": 67
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Partner",
+      "umore": "",
+      "id": 68
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Family",
+      "umore": "",
+      "id": 69
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Family",
+      "umore": "",
+      "id": 70
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Partner",
+      "umore": "",
+      "id": 71
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Partner",
+      "umore": "",
+      "id": 72
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Family",
+      "umore": "",
+      "id": 73
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Partner",
+      "umore": "",
+      "id": 74
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Partner",
+      "umore": "",
+      "id": 75
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Family",
+      "umore": "",
+      "id": 76
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Partner",
+      "umore": "",
+      "id": 77
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Partner",
+      "umore": "",
+      "id": 78
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Partner",
+      "umore": "",
+      "id": 79
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Family",
+      "umore": "",
+      "id": 80
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Family",
+      "umore": "",
+      "id": 81
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Family",
+      "umore": "",
+      "id": 82
     }
   ],
   "unigrammi": [

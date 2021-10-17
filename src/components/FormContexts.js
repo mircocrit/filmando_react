@@ -31,7 +31,7 @@ const FormContexts = ({nextStep, prevStep, onAdd , fetchMovie}) => {
           <div class="row justify-content-md-center text-center">
             <div class="col-md-auto">
               <div class="form-group">
-                <label for="attenzione"><h4>Your level of attention</h4> </label>
+                <label htmlFor="attenzione"><h4>Your level of attention</h4> </label>
                 <select class="form-control" name="attenzione" onChange={(e) => setAttenzione(e.target.value)}>
                   <option value="">Indifferent</option>
                   <option value="High">High</option>
@@ -42,7 +42,7 @@ const FormContexts = ({nextStep, prevStep, onAdd , fetchMovie}) => {
 
             <div class="col-md-auto">
               <div class="form-group">
-                <label for="compagnia"><h4>Your company</h4></label>
+                <label htmlFor="compagnia"><h4>Your company</h4></label>
                 <select class="form-control" name="compagnia" onChange={(e) => setCompagnia(e.target.value)}>
                   <option value="">Indifferent</option>
                   <option value="Partner">Partner</option>
@@ -54,7 +54,7 @@ const FormContexts = ({nextStep, prevStep, onAdd , fetchMovie}) => {
 
             <div class="col-md-auto">
               <div class="form-group">
-                <label for="umore"> <h4>Your mood</h4></label>
+                <label htmlFor="umore"> <h4>Your mood</h4></label>
                 <select class="form-control" name="umore" onChange={(e) => setUmore(e.target.value)}>
                   <option value="">Indifferent</option>
                   <option value="Good">Good</option>

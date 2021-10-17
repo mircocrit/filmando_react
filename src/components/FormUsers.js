@@ -28,7 +28,7 @@ const FormUsers = ({nextStep, prevStep, onAdd }) => {
 
             <div class="col-md-auto">
               <div class="form-group">
-                <label for="eta"> <h4>Age</h4> </label>
+                <label htmlFor="eta"> <h4>Age</h4> </label>
                 <select class="form-control" name="eta" required onChange={(e) => setEta(e.target.value)}>
                   <option value="">Open this selection menu</option>
                   <option value="1">under 18</option>
@@ -42,7 +42,7 @@ const FormUsers = ({nextStep, prevStep, onAdd }) => {
 
             <div class="col-md-auto">
               <div class="form-group">
-                <label for="genere"> <h4>Genre</h4></label>
+                <label htmlFor="genere"> <h4>Genre</h4></label>
                 <select class="form-control" name="genere" required onChange={(e) => setGenere(e.target.value)}>
                   <option value="">Open this selection menu</option>
                   <option value="uomo">Man</option>
@@ -53,7 +53,7 @@ const FormUsers = ({nextStep, prevStep, onAdd }) => {
 
             <div class="col-md-auto">
               <div class="form-group">
-                <label for="titoloStudio"> <h4>Education</h4></label>
+                <label htmlFor="titoloStudio"> <h4>Education</h4></label>
                 <select class="form-control" name="titoloStudio" required onChange={(e) => setTitoloStudio(e.target.value)}>
                   <option value="">Open this selection menu</option>
                   <option value="1">High School</option>
@@ -69,7 +69,7 @@ const FormUsers = ({nextStep, prevStep, onAdd }) => {
           <div class="row justify-content-md-center text-center">
             <div class="col-md-auto">
               <div class="form-group">
-                <label for="frequenza"><h4>How frequently do you watch movies?</h4></label>
+                <label htmlFor="frequenza"><h4>How frequently do you watch movies?</h4></label>
                 <select class="form-control" name="frequenza" required onChange={(e) => setFrequenza(e.target.value)}>
                   <option value="">Open this selection menu</option>
                   <option value="1">None or once a week</option>
@@ -81,7 +81,7 @@ const FormUsers = ({nextStep, prevStep, onAdd }) => {
 
             <div class="col-md-auto">
               <div class="form-group">
-                <label for="recSys"><h4>Have you ever used a recommender system?</h4><h6>(like Amazon, YouTube, Netflix)</h6></label>
+                <label htmlFor="recSys"><h4>Have you ever used a recommender system?</h4><h6>(like Amazon, YouTube, Netflix)</h6></label>
                 <select class="form-control" name="recSys" required onChange={(e) => setRecSys(e.target.value)}>
                   <option value="">Open this selection menu</option>
                   <option value="si">Yes</option>
