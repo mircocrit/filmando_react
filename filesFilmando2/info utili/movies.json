@@ -1,0 +1,2467 @@
+{
+"movies": [
+    {
+        "id":1,
+        "nome": "Pulp Fiction",
+        "anno": 1994,
+        "genere": ["Crime", "Drama"],
+        "numrating": 1736196,
+        "rating": 8.9,
+        "attori": ["John Travolta", "Uma Thurman", "Samuel L. Jackson", "Bruce Willis", "Quentin Tarantino"]
+    },
+    {
+        "id":2,
+        "nome": "Lawrence of Arabia",
+        "anno": 1962,
+        "genere": ["Adventure", "Biography", "Drama"],
+        "numrating":254331,
+        "rating":8.3
+        
+    },
+    {
+        "id":3,
+        "nome": "Modern Times",
+        "anno": 1936,
+        "genere": ["Comedy", "Drama", "Family"],
+        "numrating":203867,
+        "rating":8.5,
+        "attori": ["Charles Chaplin"]
+
+    },
+    {
+        "id":4,
+        "nome": "Goodfellas",
+        "anno":1990,
+        "genere": ["Biography", "Crime", "Drama"],
+        "numrating":962655,
+        "rating":8.7,
+        "attori": ["Robert De Niro", "Joe Pesci", "Martin Scorsese"]
+    },
+    {
+        "id":5,
+        "nome": "Apocalypse Now",
+        "anno":1979,
+        "genere": ["Drama", "Mystery", "War"],
+        "numrating":575784,
+        "rating":8.4,
+        "attori": ["Marlon Brando", "Francis Ford Coppola"]
+    },
+    {
+        "id":6,
+        "nome": "Casablanca",
+        "anno":1942,
+        "genere": ["Drama", "Romance", "War"],
+        "numrating":497657,
+        "rating":8.5
+    },
+    {
+        "id":7,
+        "nome": "The Shawshank Redemption",
+        "anno":1994,
+        "genere": ["Drama"],
+        "numrating":2211076,
+        "rating":9.3,
+        "attori": ["Morgan Freeman", "Tim Robbins"]
+    },
+    {
+        "id":8,
+        "nome": "Rashomon",
+        "anno":1950,
+        "genere": ["Crime", "Drama", "Mystery"],
+        "numrating":143141,
+        "rating":8.2
+    },
+    {
+        "id":9,
+        "nome": "The Third Man",
+        "anno":1949,
+        "genere": ["Film-Noir", "Mystery", "Thriller"],
+        "numrating":151469,
+        "rating":8.1
+    },
+    {
+        "id":10,
+        "nome": "The Dark Knight",
+        "anno":2008,
+        "genere": ["Action", "Crime", "Drama"],
+        "numrating":2189484,
+        "rating":9,
+        "attori": ["Christian Bale", "Heath Ledger", "Christopher Nolan"]
+    },
+    {
+        "id":11,
+        "nome": "Chinatown",
+        "anno":1974,
+        "genere": ["Drama", "Mystery", "Thriller"],
+        "numrating":278656,
+        "rating":8.2,
+        "attori": ["Jack Nicholson", "Roman Polanski"]
+        
+    },
+    {
+        "id":12,
+        "nome": "Double Indemnity",
+        "anno":1944,
+        "genere": ["Crime", "Drama", "Film-Noir"],
+        "numrating":135185,
+        "rating":8.3
+    },
+    {
+        "id":13,
+        "nome": "Ikiru",
+        "anno":1952,
+        "genere": ["Drama"],
+        "numrating":62454,
+        "rating":8.3
+    },
+    {
+        "id":14,
+        "nome": "Raging Bull",
+        "anno":1980,
+        "genere": ["Biography", "Drama", "Sport"],
+        "numrating":305114,
+        "rating":8.2,
+        "attori": ["Robert De Niro", "Joe Pesci", "Martin Scorsese"]
+    },
+    {
+        "id":15,
+        "nome": "North by Northwest",
+        "anno":1959,
+        "genere": ["Adventure", "Mystery", "Thriller"],
+        "numrating":284229,
+        "rating":8.3,
+        "attori": ["Alfred Hitchcock"]
+    },
+    {
+        "id":16,
+        "nome": "Tokyo Story",
+        "anno":1953,
+        "genere": ["Drama"],
+        "numrating":47559,
+        "rating":8.2
+    },
+    {
+        "id":17,
+        "nome": "All About Eve",
+        "anno":1950,
+        "genere": ["Drama"],
+        "numrating":114492,
+        "rating":8.2
+    },
+    {
+        "id":18,
+        "nome": "The Silence of the Lambs",
+        "anno":1991,
+        "genere": ["Crime", "Drama", "Thriller", "Horror"],
+        "numrating":1199586,
+        "rating":8.6,
+        "attori": ["Anthony Hopkins", "Jodie Foster"]
+    },
+    {
+        "id":19,
+        "nome": "Toy Story",
+        "anno":1995,
+        "genere": ["Animation", "Adventure", "Comedy"],
+        "numrating":843302,
+        "rating":8.3,
+        "attori": ["Tom Hanks"]
+    },
+    {
+        "id":20,
+        "nome": "Saving Private Ryan",
+        "anno":1998,
+        "genere": ["Drama", "War"],
+        "numrating":1172204,
+        "rating":8.6,
+        "attori": ["Tom Hanks", "Matt Damon", "Steven Spielberg"]
+    },
+    {
+        "id":21,
+        "nome": "Back to the Future",
+        "anno":1985,
+        "genere": ["Adventure", "Comedy", "Sci-Fi"],
+        "numrating":989134,
+        "rating":8.5,
+        "attori": ["Michael J. Fox"]
+    },
+    {
+        "id":22,
+        "nome": "Annie Hall",
+        "anno":1977,
+        "genere": ["Comedy", "Romance"],
+        "numrating":243740,
+        "rating":8,
+        "attori": ["Woody Allen"]
+    },
+    {
+        "id":23,
+        "nome": "It Happened One Night",
+        "anno":1934,
+        "genere": ["Comedy", "Romance"],
+        "numrating":88699,
+        "rating":8.1
+    },
+    {
+        "id":24,
+        "nome": "Aliens",
+        "anno":1986,
+        "genere": ["Action", "Adventure", "Sci-Fi"],
+        "numrating":625714,
+        "rating":8.3,
+        "attori": ["James Cameron"]
+    },
+    {
+        "id":25,
+        "nome": "Amadeus",
+        "anno":1984,
+        "genere": ["Biography", "Drama", "History"],
+        "numrating":352646,
+        "rating":8.3
+    },
+    {
+        "id":26,
+        "nome": "La Dolce Vita",
+        "anno":1960,
+        "genere": ["Comedy", "Drama"],
+        "numrating":62276,
+        "rating":8,
+        "attori": ["Federico Fellini"]
+    },
+    {
+        "id":27,
+        "nome": "The Shining",
+        "anno":1980,
+        "genere": ["Drama", "Horror"],
+        "numrating":842444,
+        "rating":8.4,
+        "attori": ["Jack Nicholson", "Stanley Kubrick"]
+    },
+    {
+        "id":28,
+        "nome": "The Best Years of Our Lives",
+        "anno":1946,
+        "genere": ["Drama", "Romance", "War"],
+        "numrating":55148,
+        "rating":8
+    },
+    {
+        "id":29,
+        "nome": "Fargo",
+        "anno":1996,
+        "genere": ["Crime", "Drama", "Thriller"],
+        "numrating":586654,
+        "rating":8.1
+    },
+    {
+        "id":30,
+        "nome": "Reservoir Dogs",
+        "anno":1992,
+        "genere": ["Crime", "Drama", "Thriller"],
+        "numrating":874404,
+        "rating":8.3,
+        "attori": ["Quentin Tarantino"]
+    },
+    {
+        "id":31,
+        "nome": "My Neighbor Totoro",
+        "anno":1988,
+        "genere": ["Animation", "Family", "Fantasy"],
+        "numrating":262559,
+        "rating":8.2
+    },
+    {
+        "id":32,
+        "nome": "Memento",
+        "anno":2000,
+        "genere": ["Mystery", "Thriller"],
+        "numrating":1072914,
+        "rating":8.4,
+        "attori": ["Guy Pearce", "Christopher Nolan"]
+    },
+    {
+        "id":33,
+        "nome": "The Pianist",
+        "anno":2002,
+        "genere": ["Biography", "Drama", "Music"],
+        "numrating":684890,
+        "rating":8.5,
+        "attori": ["Roman Polanski"]
+    },
+    {
+        "id":34,
+        "nome": "Cool Hand Luke",
+        "anno":1967,
+        "genere": ["Crime", "Drama"],
+        "numrating":154805,
+        "rating":8.1
+    },
+    {
+        "id":35,
+        "nome": "Jaws",
+        "anno":1975,
+        "genere": ["Adventure", "Drama", "Thriller"],
+        "numrating":525172,
+        "rating":8,
+        "attori": ["Steven Spielberg"]
+    },
+    {
+        "id":36,
+        "nome": "To Kill a Mockingbird",
+        "anno":1962,
+        "genere": ["Crime", "Drama"],
+        "numrating":283031,
+        "rating":8.2
+    },
+    {
+        "id":37,
+        "nome": "Once Upon a Time in America",
+        "anno":1984,
+        "genere": ["Crime", "Drama"],
+        "numrating":293356,
+        "rating":8.4,
+        "attori":  ["Robert De Niro", "Sergio Leone"]
+    },
+    {
+        "id":38,
+        "nome": "Barry Lydon",
+        "anno":1975,
+        "genere": ["Adventure", "Drama", "History"],
+        "numrating":140133,
+        "rating":8.1,
+        "attori": ["Stanley Kubrick"]
+    },
+    {
+        "id":39,
+        "nome": "The Grapes of Wrath",
+        "anno":1940,
+        "genere": ["Drama", "History"],
+        "numrating":83338,
+        "rating":8,
+        "attori": ["Henry Fonda"]
+    },
+    {
+        "id":40,
+        "nome": "Before Sunset",
+        "anno":2004,
+        "genere": ["Drama", "Romance"],
+        "numrating":220359,
+        "rating":8,
+        "attori": ["Ethan Hawke"]
+    },
+    {
+        "id":41,
+        "nome": "The Usual Suspects",
+        "anno":1995,
+        "genere": ["Crime", "Mystery", "Thriller"],
+        "numrating":946430,
+        "rating":8.5,
+        "attori": ["Kevin Spacey"]
+    },
+    {
+        "id":42,
+        "nome": "Strangers on a Train",
+        "anno":1951,
+        "genere": ["Crime", "Film-Noir", "Thriller"],
+        "numrating":118233,
+        "rating":8,
+        "attori": ["Alfred Hitchcock"]
+    },
+    {
+        "id":43,
+        "nome": "The Departed",
+        "anno":2006,
+        "genere": ["Crime", "Drama", "Thriller"],
+        "numrating":1129973,
+        "rating":8.5,
+        "attori": ["Leonardo DiCaprio", "Matt Damon", "Jack Nicholson", "Mark Wahlberg", "Martin Scorsese"]
+    },
+    {
+        "id":44,
+        "nome": "Fight Club",
+        "anno":1999,
+        "genere": ["Drama"],
+        "numrating":1764403,
+        "rating":8.8,
+        "attori": ["Brad Pitt", "Edward Norton"]
+    },
+    {
+        "id":45,
+        "nome": "Full Metal Jacket",
+        "anno":1987,
+        "genere": ["Drama", "War"],
+        "numrating":641409, 
+        "rating":8.3,
+        "attori": ["Stanley Kubrick"]
+    },
+    {
+        "id":46,
+        "nome": "Dog Day Afternoon",
+        "anno":1975,
+        "genere": ["Biography", "Crime", "Drama"],
+        "numrating":225828,
+        "rating":8,
+        "attori": ["Al Pacino"]
+    },
+    {
+        "id":47,
+        "nome": "This Is Spinal Tap",
+        "anno":1984,
+        "genere": ["Comedy", "Music"],
+        "numrating":124142,
+        "rating":7.9
+    },
+    {
+        "id":48,
+        "nome": "Die Hard",
+        "anno":1988,
+        "genere": ["Action", "Thriller"],
+        "numrating":753032,
+        "rating":8.2,
+        "attori": ["Bruce Willis"]
+    },
+    {
+        "id":49,
+        "nome": "Duck Soup",
+        "anno":1933,
+        "genere": ["Comedy", "Musical", "War"],
+        "numrating":53771,
+        "rating":7.8
+    },
+    {
+        "id":50,
+        "nome": "Trainspotting",
+        "anno":1996,
+        "genere": ["Drama"],
+        "numrating":611783,
+        "rating":8.1,
+        "attori": ["Ewan McGregor"]
+    },
+    {
+        "id":51,
+        "nome": "Young Frankenstein",
+        "anno":1974,
+        "genere": ["Comedy"],
+        "numrating":137700,
+        "rating":8,
+        "attori": ["Mel Brooks"]
+    },
+    {
+        "id":52,
+        "nome": "Forrest Gump",
+        "anno":1994,
+        "genere": ["Drama", "Romance"],
+        "numrating":1706309,
+        "rating":8.8,
+        "attori": ["Tom Hanks"]
+    },
+    {
+        "id":53,
+        "nome": "The Graduate",
+        "anno":1967,
+        "genere": ["Comedy", "Drama", "Romance"],
+        "numrating":245446,
+        "rating":8,
+        "attori": ["Dustin Hoffman"]
+    },
+    {
+        "id":54,
+        "nome": "Incendies",
+        "anno":2010,
+        "genere": ["Drama", "Mystery", "War"],
+        "numrating":134590,
+        "rating":8.3
+    },
+    {
+        "id":55,
+        "nome": "The Terminator",
+        "anno":1984,
+        "genere": ["Action", "Sci-Fi"],
+        "numrating":767685,
+        "rating":8,
+        "attori": ["Arnold Schwarzenegger", "James Cameron"]
+    },
+    {
+        "id":56,
+        "nome": "The Matrix",
+        "anno":1999,
+        "genere": ["Action", "Sci-Fi"],
+        "numrating":1590658,
+        "rating":8.7,
+        "attori": ["Keanu Reeves", "Carrie-Anne Moss"]
+    },
+    {
+        "id":57,
+        "nome": "Talk to Her",
+        "anno":2002,
+        "genere": ["Drama", "Mystery", "Romance"],
+        "numrating":100678,
+        "rating":7.9
+    },
+    {   
+        "id":58,
+        "nome": "Good Will Hunting",
+        "anno":1997,
+        "genere": ["Drama", "Romance"],
+        "numrating":812161,
+        "rating":8.3,
+        "attori": ["Robin Williams","Matt Damon", "Ben Affleck"]
+    },
+    {
+        "id":59,
+        "nome": "Frankenstein",
+        "anno":1931,
+        "genere": ["Drama", "Horror", "Sci-Fi"],
+        "numrating":61710,
+        "rating":7.8
+    },
+    {
+        "id":60,
+        "nome": "Infernal Affairs",
+        "anno":2002,
+        "genere": ["Crime", "Drama", "Mystery"],
+        "numrating":114610,
+        "rating":8
+    },
+    {
+        "id":61,
+        "nome": "Toy Story 2",
+        "anno":1999,
+        "genere": ["Animation", "Adventure", "Comedy"],
+        "numrating":502845,
+        "rating":7.9,
+        "attori": ["Tom Hanks"]
+    },
+    {
+        "id":62,
+        "nome": "Jurassic Park",
+        "anno":1993,
+        "genere": ["Action", "Adventure", "Sci-Fi"],
+        "numrating":820596,
+        "rating":8.1,
+        "attori": ["Steven Spielberg"]
+    },
+    {
+        "id":63,
+        "nome": "American History X",
+        "anno":1998,
+        "genere": ["Drama"],
+        "numrating":993016,
+        "rating":8.5,
+        "attori": ["Edward Norton"]
+    },
+    {
+        "id":64,
+        "nome": "The Iron Giant",
+        "anno":1999,
+        "genere": ["Animation", "Action", "Adventure"],
+        "numrating":164399,
+        "rating":8
+    },
+    {
+        "id":65,
+        "nome": "Stand by Me",
+        "anno":1986,
+        "genere": ["Adventure", "Drama"],
+        "numrating":347307,
+        "rating":8.1
+    },
+    {
+        "id":66,
+        "nome": "Rope",
+        "anno":1948,
+        "genere": ["Crime", "Drama", "Mystery"],
+        "numrating":121455,
+        "rating":8,
+        "attori": ["Alfred Hitchcock"]
+    },
+    {
+        "id":67,
+        "nome": "Brief Encounter",
+        "anno":1945,
+        "genere": ["Drama", "Romance"],
+        "numrating":33386,
+        "rating":8
+    },
+    {
+        "id":68,
+        "nome": "In the Heat of the Night",
+        "anno":1967,
+        "genere": ["Crime", "Drama", "Mystery"],
+        "numrating":63715,
+        "rating":7.9
+    },
+    {
+        "id":69,
+        "nome": "Midnight Cowboy",
+        "anno":1969,
+        "genere": ["Drama"],
+        "numrating":95793,
+        "rating":7.8
+    },
+    {
+        "id":70,
+        "nome": "Sling Blade",
+        "anno":1996,
+        "genere": ["Drama"],
+        "numrating":84397,
+        "rating":8
+    },
+    {
+        "id":71,
+        "nome": "The Exorcist",
+        "anno":1973,
+        "genere": ["Horror"],
+        "numrating":347696,
+        "rating":8
+    },
+    {
+        "id":72,
+        "nome": "Shaun of the Dead",
+        "anno":2004,
+        "genere": ["Comedy", "Horror"],
+        "numrating":491806,
+        "rating":7.9
+    },
+    {
+        "id":73,
+        "nome": "Scarface",
+        "anno":1983,
+        "genere": ["Crime", "Drama"],
+        "numrating":700584,
+        "rating":8.3,
+        "attori": ["Al Pacino", "Brian De Palma"]
+    },
+    {
+        "id":74,
+        "nome": "The Return",
+        "anno":2003,
+        "genere": ["Drama"],
+        "numrating":40082,
+        "rating":8
+    },
+    {
+        "id":75,
+        "nome": "Platoon",
+        "anno":1986,
+        "genere": ["Drama", "War"],
+        "numrating":365745,
+        "rating":8.1
+    },
+    {
+        "id":76,
+        "nome": "Being John Malkovich",
+        "anno":1999,
+        "genere": ["Comedy", "Drama", "Fantasy"],
+        "numrating":297375,
+        "rating":7.7,
+        "attori": ["Cameron Diaz", "John Cusack"]
+    },
+    {
+        "id":77,
+        "nome": "Underground",
+        "anno":1995,
+        "genere": ["Comedy", "Drama", "War"],
+        "numrating":52964,
+        "rating":8.1
+    },
+    {
+        "id":78,
+        "nome": "The African Queen",
+        "anno":1951,
+        "genere": ["Adventure", "Drama", "Romance"],
+        "numrating":68764,
+        "rating":7.7
+    },
+    {
+        "id":79,
+        "nome": "Almost Famous",
+        "anno":2000,
+        "genere": ["Adventure", "Comedy", "Drama"],
+        "numrating":242311,
+        "rating":7.9
+    },
+    {
+        "id":80,
+        "nome": "Magnolia",
+        "anno":1999,
+        "genere": ["Drama"],
+        "numrating":279182,
+        "rating":8,
+        "attori": ["Tom Cruise"]
+    },
+    {
+        "id":81,
+        "nome": "Gandhi",
+        "anno":1982,
+        "genere": ["Biography", "Drama", "History"],
+        "numrating":212114,
+        "rating":8
+    },
+    {
+        "id":82,
+        "nome": "Goldfinger",
+        "anno":1964,
+        "genere": ["Action", "Adventure", "Thriller"],
+        "numrating":164923,
+        "rating":7.7,
+        "attori": ["Sean Connery"]
+    },
+    {
+        "id":83,
+        "nome": "Batman Begins",
+        "anno":2005,
+        "genere": ["Action", "Adventure"],
+        "numrating":1249802,
+        "rating":8.2,
+        "attori": ["Christian Bale", "Liam Neeson", "Christopher Nolan"]
+    },
+    {
+        "id":84,
+        "nome": "Lost in Translation",
+        "anno":2003,
+        "genere": ["Drama", "Romance"],
+        "numrating":391948,
+        "rating":7.7,
+        "attori": ["Scarlett Johansson"]
+    },
+    {
+        "id":85,
+        "nome": "Hotel Rwanda",
+        "anno":2004,
+        "genere": ["Biography", "Drama", "History"],
+        "numrating":323423,
+        "rating":8.1
+    },
+    {
+        "id":86,
+        "nome": "A Night at the Opera",
+        "anno":1935,
+        "genere": ["Comedy", "Music", "Musical"],
+        "numrating":29458,
+        "rating":7.9
+    },
+    {
+        "id":87,
+        "nome": "Spartacus",
+        "anno":1960,
+        "genere": ["Adventure", "Biography", "Drama"],
+        "numrating":118718,
+        "rating":7.9,
+        "attori": ["Stanley Kubrick"]
+    },
+    {
+        "id":88,
+        "nome": "The Prestige",
+        "anno":2006,
+        "genere": ["Drama", "Mystery", "Sci-Fi"],
+        "numrating":1121240,
+        "rating":8.5,
+        "attori": ["Christian Bale", "Christopher Nolan"]
+    },
+    {
+        "id":89,
+        "nome": "The Shop Around the Corner",
+        "anno":1940,
+        "genere": ["Comedy", "Drama", "Romance"],
+        "numrating":25964,
+        "rating":8.1
+    },
+    {
+        "id": 90,
+        "nome": "Who Framed Roger Rabbit",
+        "anno":1988,
+        "genere": ["Animation", "Adventure", "Comedy"],
+        "numrating":174818,
+        "rating":7.7
+    },
+    {
+        "id":91,
+        "nome": "The Incredibles",
+        "anno":2004,
+        "genere": ["Animation", "Action", "Adventure"],
+        "numrating":630376,
+        "rating":8
+    },
+    {
+        "id":92,
+        "nome": "Dazed and Confused",
+        "anno":1993,
+        "genere": ["Comedy"],
+        "numrating":155697,
+        "rating":7.6
+    },
+    {
+        "id": 93,
+        "nome": "Blazing Saddles",
+        "anno":1974,
+        "genere": ["Comedy", "Western"],
+        "numrating":120375,
+        "rating":7.7,
+        "attori": ["Mel Brooks"]
+    },
+    {
+        "id":94,
+        "nome": "Day for Night",
+        "anno":1973,
+        "genere": ["Comedy", "Drama", "Romance"],
+        "numrating":18852,
+        "rating":8
+    },
+    {
+        "id": 95,
+        "nome": "The Green Mile",
+        "anno":1999,
+        "genere": ["Crime", "Drama", "Fantasy"],
+        "numrating":1079090,
+        "rating":8.6,
+        "attori": ["Tom Hanks"]
+    },
+    {
+        "id":96,
+        "nome": "Dial M for Murder",
+        "anno":1954,
+        "genere": ["Crime", "Thriller"],
+        "numrating":147923,
+        "rating":8.2,
+        "attori": ["Alfred Hitchcock"]
+    },
+    {
+        "id":97,
+        "nome": "Dirty Harry",
+        "anno":1971,
+        "genere": ["Action", "Crime", "Thriller"],
+        "numrating":137335,
+        "rating":7.7,
+        "attori": ["Clint Eastwood"]
+    },
+    {
+        "id":98,
+        "nome": "Iron Man",
+        "anno":2008,
+        "genere": ["Action", "Adventure", "Sci-Fi"],
+        "numrating":903130,
+        "rating":7.9,
+        "attori": ["Robert Downey Jr.", "Gwyneth Paltrow"]
+    },
+    {
+        "id":99,
+        "nome": "Casino",
+        "anno":1995,
+        "genere": ["Crime", "Drama"],
+        "numrating":438514,
+        "rating":8.2,
+        "attori": ["Robert De Niro", "Sharon Stone", "Joe Pesci", "Martin Scorsese"]
+    },
+    {
+        "id":100,
+        "nome": "A Christmas Story",
+        "anno":1983,
+        "genere": ["Comedy", "Family"],
+        "numrating":126842,
+        "rating":8
+    },
+    {
+        "id":101,
+        "nome": "Serpico",
+        "anno":1973,
+        "genere": ["Biography", "Crime", "Drama"],
+        "numrating":102639,
+        "rating":7.7,
+        "attori": ["Al Pacino"]
+    },
+    {
+        "id":102,
+        "nome": "Barton Fink",
+        "anno":1991,
+        "genere": ["Comedy", "Drama", "Thriller"],
+        "numrating":108238,
+        "rating":7.7
+    },
+    {
+        "id":103,
+        "nome": "Mary Poppins",
+        "anno":1964,
+        "genere": ["Comedy", "Family", "Fantasy"],
+        "numrating":150703,
+        "rating":7.8
+    },
+    {
+        "id":104,
+        "nome": "The Sixth Sense",
+        "anno":1999,
+        "genere": ["Drama", "Mystery", "Thriller"],
+        "numrating":876533,
+        "rating":8.1,
+        "attori": ["Bruce Willis"]
+    },
+    {
+        "id":105,
+        "nome": "My Fair Lady",
+        "anno":1964,
+        "genere": ["Drama", "Family", "Musical"],
+        "numrating":82939,
+        "rating":7.8,
+        "attori": ["Audrey Hepburn"]
+    },
+    {
+        "id":106,
+        "nome": "Ed Wood",
+        "anno":1994,
+        "genere": ["Biography", "Comedy", "Drama"],
+        "numrating":160944,
+        "rating":7.8,
+        "attori": ["Johnny Depp", "Tim Burton"]
+    },
+    {
+        "id":107,
+        "nome": "The Sound of Music",
+        "anno":1965,
+        "genere": ["Biography", "Drama", "Family"],
+        "numrating":193853,
+        "rating":8
+    },
+    {
+        "id":108,
+        "nome": "Enter the Dragon",
+        "anno":1973,
+        "genere": ["Action", "Crime", "Drama"],
+        "numrating":92254,
+        "rating":7.7,
+        "attori": ["Bruce Lee"]
+    },
+    {
+        "id":109,
+        "nome": "Rain Man",
+        "anno":1988,
+        "genere": ["Drama"],
+        "numrating":456470,
+        "rating":8,
+        "attori": ["Dustin Hoffman", "Tom Cruise"]
+    },
+    {
+        "id":110,
+        "nome": "The Birds",
+        "anno":1963,
+        "genere": ["Drama", "Horror", "Mystery"],
+        "numrating":162445,
+        "rating":7.7,
+        "attori": ["Alfred Hitchcock"]
+    },
+    {
+        "id":111,
+        "nome": "Edward Scissorhands",
+        "anno":1990,
+        "genere": ["Drama", "Fantasy", "Romance"],
+        "numrating":429398,
+        "rating":7.9,
+        "attori": ["Johnny Depp", "Tim Burton"]
+    },
+    {
+        "id":112,
+        "nome": "Peeping Tom",
+        "anno":1960,
+        "genere": ["Drama", "Horror", "Thriller"],
+        "numrating":28640,
+        "rating":7.7
+    },
+    {
+        "id":113,
+        "nome": "Eraserhead",
+        "anno":1977,
+        "genere": ["Horror"],
+        "numrating":95813, 
+        "rating":7.4
+    },
+    {
+        "id":114,
+        "nome": "Gladiator",
+        "anno":2000,
+        "genere": ["Action", "Adventure", "Drama"],
+        "numrating":1275417,
+        "rating":8.5,
+        "attori": ["Russell Crowe", "Joaquin Phoenix", "Ridley Scott"]
+    },
+    {
+        "id":115,
+        "nome": "Little Miss Sunshine",
+        "anno":2006,
+        "genere": ["Comedy", "Drama"],
+        "numrating":423465,
+        "rating":7.8,
+        "attori": ["Steve Carell"]
+    },
+    {
+        "id":116,
+        "nome": "True Romance",
+        "anno":1993,
+        "genere": ["Crime", "Drama", "Romance"],
+        "numrating":197295,
+        "rating":7.9
+    },
+    {
+        "id":117,
+        "nome": "Brokeback Mountain",
+        "anno":2005,
+        "genere": ["Drama", "Romance"],
+        "numrating":310649,
+        "rating":7.7,
+        "attori": ["Heath Ledger", "Jake Gyllenhaal"]
+    },
+    {
+        "id":118,
+        "nome": "Shrek",
+        "anno":2001,
+        "genere": ["Animation", "Adventure", "Comedy"],
+        "numrating":588160,
+        "rating":7.8
+    },
+    {
+        "id":119,
+        "nome": "The Piano",
+        "anno":1993,
+        "genere": ["Drama", "Music", "Romance"],
+        "numrating":75799,
+        "rating":7.6
+    },
+    {
+        "id":120,
+        "nome": "Doctor Zhivago",
+        "anno":1965,
+        "genere": ["Drama", "Romance", "War"],
+        "numrating":66814,
+        "rating":8
+    },
+    {
+        "id":121,
+        "nome": "Malcolm X",
+        "anno":1992,
+        "genere": ["Biography", "Drama", "History"],
+        "numrating":79235,
+        "rating":7.7
+    },
+    {
+        "id":122,
+        "nome": "Donnie Darko",
+        "anno":2001,
+        "genere": ["Drama", "Mystery", "Sci-Fi"],
+        "numrating":717403,
+        "rating":8,
+        "attori": ["Jake Gyllenhaal"]
+    },
+    {
+        "id":123,
+        "nome": "Paper Moon",
+        "anno":1973,
+        "genere": ["Comedy", "Drama"],
+        "numrating":39771,
+        "rating":8
+    },
+    {
+        "id":124,
+        "nome": "Nine Queens",
+        "anno":2000,
+        "genere": ["Crime", "Drama", "Thriller"],
+        "numrating":47569,
+        "rating":7.9
+    },
+    {
+        "id":125,
+        "nome": "Run Lola Run",
+        "anno":1998,
+        "genere": ["Crime", "Drama", "Thriller"],
+        "numrating":183203,
+        "rating":7.6
+    },
+    {
+        "id":126,
+        "nome": "Quiz Show",
+        "anno":1994,
+        "genere": ["Biography", "Drama", "History"],
+        "numrating":62508,
+        "rating":7.5
+    },
+    {
+        "id": 127,
+        "nome": "West Side Story",
+        "anno":1961,
+        "genere": ["Crime", "Drama", "Musical"],
+        "numrating":91887,
+        "rating":7.5
+    },
+    {
+        "id": 128,
+        "nome": "American Graffiti",
+        "anno":1973,
+        "genere": ["Comedy", "Drama"],
+        "numrating":77894,
+        "rating":7.4,
+        "attori": ["George Lucas"]
+    },
+    {
+        "id": 129,
+        "nome": "Kung Fu Hustle",
+        "anno":2004,
+        "genere": ["Action", "Comedy", "Fantasy"],
+        "numrating":121599,
+        "rating":7.7
+    },
+    {
+        "id":130,
+        "nome": "Porco Rosso",
+        "anno":1992,
+        "genere": ["Animation", "Adventure", "Comedy"],
+        "numrating":69210,
+        "rating":7.7
+    },
+    {
+        "id": 131,
+        "nome": "Midnight Express",
+        "anno":1978,
+        "genere": ["Biography", "Crime", "Drama"],
+        "numrating":69360,
+        "rating":7.6
+    },
+    {
+        "id":132,
+        "nome": "Midnight Run",
+        "anno":1988,
+        "genere": ["Action", "Comedy", "Crime"],
+        "numrating":69123,
+        "rating":7.5,
+        "attori": ["Robert De Niro"]
+    },
+    {
+        "id":133,
+        "nome": "The Umbrellas of Cherbourg",
+        "anno":1964,
+        "genere": ["Drama", "Musical", "Romance"],
+        "numrating":21783,
+        "rating":7.8
+        
+    },
+    {
+        "id":134,
+        "nome": "Serenity",
+        "anno":2005,
+        "genere": ["Action", "Adventure", "Sci-Fi"],
+        "numrating":276581,
+        "rating":7.8
+    },
+    {
+        "id":135,
+        "nome": "Mystic River",
+        "anno":2003,
+        "genere": ["Crime", "Drama", "Mystery"],
+        "numrating":402598,
+        "rating":7.9,
+        "attori": ["Sean Penn", "Tim Robbins", "Clint Eastwood"]
+    },
+    {
+        "id":136,
+        "nome": "After Hours",
+        "anno":1985,
+        "genere": ["Comedy", "Crime", "Drama"],
+        "numrating": 53963,
+        "rating":7.7,
+        "attori": ["Martin Scorsese"]
+    },
+    {
+        "id":137,
+        "nome": "Apollo 13",
+        "anno":1995,
+        "genere": ["Adventure", "Drama", "History"],
+        "numrating":255920,
+        "rating":7.6,
+        "attori": ["Tom Hanks"]
+    },
+    {
+        "id": 138,
+        "nome": "Dances with Wolves",
+        "anno":1990,
+        "genere": ["Adventure", "Drama", "Western"],
+        "numrating":229893,
+        "rating":8,
+        "attori": ["Kevin Costner"]
+    },
+    {
+        "id":139,
+        "nome": "From Here to Eternity",
+        "anno":1953,
+        "genere": ["Drama", "Romance", "War"],
+        "numrating":41065,
+        "rating":7.6
+    },
+    {
+        "id":140,
+        "nome": "American Splendor",
+        "anno":2003,
+        "genere": ["Biography", "Comedy", "Drama"],
+        "numrating":46461,
+        "rating":7.4
+    },
+    {
+        "id":141,
+        "nome": "Easy Rider",
+        "anno":1969,
+        "genere": ["Adventure", "Drama"],
+        "numrating":94891,
+        "rating":7.3
+    },
+    {
+        "id":142,
+        "nome": "Animal House",
+        "anno":1978,
+        "genere": ["Comedy"],
+        "numrating":108082,
+        "rating":7.5
+    },
+    {
+        "id": 143,
+        "nome": "East of Eden",
+        "anno":1955,
+        "genere": ["Drama"],
+        "numrating":38401,
+        "rating":7.9,
+        "attori": ["James Dean"]
+    },
+    {
+        "id":144,
+        "nome": "Dead Man Walking",
+        "anno":1995,
+        "genere": ["Crime", "Drama"],
+        "numrating":85453,
+        "rating":7.5,
+        "attori": ["Sean Penn"]
+        
+    },
+    {
+        "id":145,
+        "nome": "Kagemusha",
+        "anno":1980,
+        "genere": ["Drama", "History", "War"],
+        "numrating":30144,
+        "rating":8
+    },
+    {
+        "id":146,
+        "nome": "The Motorcycle Diaries",
+        "anno":2004,
+        "genere": ["Adventure", "Biography", "Drama"],
+        "numrating":93748,
+        "rating":7.8
+    },
+    {
+        "id":147,
+        "nome": "Leaving Las Vegas",
+        "anno":1995,
+        "genere": ["Drama", "Romance"],
+        "numrating":110313,
+        "rating":7.5,
+        "attori": ["Nicolas Cage"]
+    },
+    {
+        "id":148,
+        "nome": "Sideways",
+        "anno":2004,
+        "genere": ["Comedy", "Drama", "Romance"],
+        "numrating":174120,
+        "rating":7.5
+    },
+    {
+        "id": 149,
+        "nome": "The Thin Red Line",
+        "anno":1998,
+        "genere": ["Drama", "War"],
+        "numrating":165874,
+        "rating":7.6,
+        "attori": ["Sean Penn"]
+    },
+    {
+        "id":150,
+        "nome": "Tootsie",
+        "anno":1982,
+        "genere": ["Comedy", "Drama", "Romance"],
+        "numrating":93252,
+        "rating":7.4,
+        "attori": ["Dustin Hoffman"]
+    },
+    {
+        "id":151,
+        "nome": "From Russia with Love",
+        "anno":1963,
+        "genere": ["Action", "Adventure", "Thriller"],
+        "numrating":111727,
+        "rating":7.4,
+        "attori": ["Sean Connery"]
+    },
+    {     
+        "id":152,
+        "nome": "Capote",
+        "anno":2005,
+        "genere": ["Biography", "Crime", "Drama"],
+        "numrating":120925,
+        "rating":7.3
+    },
+    {
+        "id":153,
+        "nome": "Kiss Kiss Bang Bang",
+        "anno":2005,
+        "genere": ["Action", "Comedy", "Crime"],
+        "numrating":207930,
+        "rating":7.5,
+        "attori": ["Robert Downey Jr."]
+    },
+    {
+        "id":154,
+        "nome": "The Color Purple",
+        "anno":1985,
+        "genere": ["Drama"],
+        "numrating":74266,
+        "rating":7.8,
+        "attori": ["Steven Spielberg"]
+    },
+    {
+        "id":155,
+        "nome": "Misery",
+        "anno":1990,
+        "genere": ["Drama", "Thriller"],
+        "numrating":173636,
+        "rating":7.8
+    },
+    {
+        "id":156,
+        "nome": "Bullitt",
+        "anno":1968,
+        "genere": ["Action", "Crime", "Thriller"],
+        "numrating":57687,
+        "rating":7.4,
+        "attori": ["Steve McQueen"]
+    },
+    {
+        "id":157,
+        "nome": "Walk the Line",
+        "anno":2005,
+        "genere": ["Biography", "Drama", "Music"],
+        "numrating":224979,
+        "rating":7.8,
+        "attori": ["Joaquin Phoenix"]
+    },
+    {
+        "id":158,
+        "nome": "Empire of the Sun",
+        "anno":1987,
+        "genere": ["Action", "Drama", "History"],
+        "numrating":110088,
+        "rating":7.8,
+        "attori": ["Christian Bale", "Steven Spielberg"]
+    },
+    {
+        "id":159,
+        "nome": "V for Vendetta",
+        "anno":2005,
+        "genere": ["Action", "Drama", "Sci-Fi"],
+        "numrating":987649,
+        "rating":8.2,
+        "attori": ["Natalie Portman"]
+    },
+    {
+        "id":160,
+        "nome": "In America",
+        "anno":2002,
+        "genere": ["Drama"],
+        "numrating":39630,
+        "rating":7.7
+    },
+    {
+        "id":161,
+        "nome": "Forbidden Planet",
+        "anno":1956,
+        "genere": ["Action", "Adventure", "Sci-Fi"],
+        "numrating":43387,
+        "rating":7.6
+    },
+    {
+        "id":162,
+        "nome": "The Hours",
+        "anno":2002,
+        "genere": ["Drama", "Romance"],
+        "numrating":120322,
+        "rating":7.5,
+        "attori": ["Meryl Streep", "Nicole Kidman"]
+    },
+    {
+        "id":163,
+        "nome": "Donnie Brasco",
+        "anno":1997,
+        "genere": ["Biography", "Crime", "Drama"],
+        "numrating":264506,
+        "rating":7.7,
+        "attori": ["Al Pacino", "Johnny Depp"]
+    },
+    {
+        "id":164,
+        "nome": "The City of Lost Children",
+        "anno":1995,
+        "genere": ["Fantasy", "Sci-Fi"],
+        "numrating":63060,
+        "rating":7.5
+    },
+    {
+        "id":165,
+        "nome": "Minority Report",
+        "anno":2002,
+        "genere": ["Action", "Crime", "Mystery"],
+        "numrating":486966,
+        "rating":7.6,
+        "attori": ["Tom Cruise", "Steven Spielberg"]
+    },
+    {
+        "id":166,
+        "nome": "Big Fish",
+        "anno":2003,
+        "genere": ["Adventure", "Drama", "Fantasy"],
+        "numrating":401193,
+        "rating":8,
+        "attori": ["Ewan McGregor", "Tim Burton"]
+    },
+    {
+        "id":167,
+        "nome": "Spider-Man 2",
+        "anno":2004,
+        "genere": ["Action", "Adventure", "Sci-Fi"],
+        "numrating":521853,
+        "rating":7.3
+    },
+    {
+        "id":168,
+        "nome": "The Squid and the Whale",
+        "anno":2005,
+        "genere": ["Comedy", "Drama"],
+        "numrating":73423,
+        "rating":7.3
+    },
+    {
+        "id":169,
+        "nome": "Five Easy Pieces",
+        "anno":1970,
+        "genere": ["Drama"],
+        "numrating":31594,
+        "rating":7.5,
+        "attori": ["Jack Nicholson"]
+    },
+    {
+        "id":170,
+        "nome": "Forbidden Games",
+        "anno":1952,
+        "genere": ["Drama", "War"],
+        "numrating":10573,
+        "rating":8.1
+    },
+    {
+        "id":171,
+        "nome": "Cinderella Man",
+        "anno":2005,
+        "genere": ["Biography", "Drama", "History"],
+        "numrating":170774,
+        "rating":8,
+        "attori": ["Russell Crowe"]
+    },
+    {
+        "id":172,
+        "nome": "To Catch a Thief",
+        "anno":1955,
+        "genere": ["Mystery", "Romance", "Thriller"],
+        "numrating":60117,
+        "rating":7.4,
+        "attori": ["Alfred Hitchcock"]
+        
+    },
+    {
+        "id":173,
+        "nome": "Bad Education",
+        "anno":2004,
+        "genere": ["Crime", "Drama"],
+        "numrating":53460,
+        "rating":7.4
+    },
+    {
+        "id": 174,
+        "nome": "Half Nelson",
+        "anno":2006,
+        "genere": ["Drama"],
+        "numrating":82145,
+        "rating":7.2,
+        "attori": ["Ryan Gosling"]
+    },
+    {
+        "id": 175,
+        "nome": "Pierrot le Fou",
+        "anno":1965,
+        "genere": ["Crime", "Drama", "Romance"],
+        "numrating":26985,
+        "rating":7.6
+    },
+    {
+        "id":176,
+        "nome": "A Man for All Seasons",
+        "anno":1966,
+        "genere": ["Biography", "Drama", "History"],
+        "numrating":29567,
+        "rating":7.7
+    },
+    {
+        "id":177,
+        "nome": "Marty",
+        "anno":1955,
+        "genere": ["Drama", "Romance"],
+        "numrating":20182,
+        "rating":7.7
+    },
+    {
+        "id":178,
+        "nome": "Walkabout",
+        "anno":1971,
+        "genere": ["Adventure", "Drama"],
+        "numrating":21684,
+        "rating":7.6
+    },
+    {
+        "id":179,
+        "nome": "Brick",
+        "anno":2005,
+        "genere": ["Action", "Crime", "Drama"],
+        "numrating":98327,
+        "rating":7.3,
+        "attori": ["Joseph Gordon-Levitt"]
+    },
+    {
+        "id":180,
+        "nome": "Billy Elliot",
+        "anno":2000,
+        "genere": ["Drama", "Music"],
+        "numrating":120909,
+        "rating":7.7
+    },
+    {
+        "id":181,
+        "nome": "Jackie Brown",
+        "anno":1997,
+        "genere": ["Crime", "Drama", "Thriller"],
+        "numrating":301529,
+        "rating":7.5,
+        "attori": ["Samuel L. Jackson", "Quentin Tarantino"]
+    },
+    {
+        "id":182,
+        "nome": "25th Hour",
+        "anno":2002,
+        "genere": ["Drama"],
+        "numrating":165623,
+        "rating":7.6,
+        "attori": ["Edward Norton"]
+    },
+    {
+        "id":183,
+        "nome": "Road to Perdition",
+        "anno":2002,
+        "genere": ["Crime", "Drama", "Thriller"],
+        "numrating":236182,
+        "rating":7.7,
+        "attori": ["Tom Hanks"]
+    },
+    {
+        "id":184,
+        "nome": "High Plains Drifter",
+        "anno":1973,
+        "genere": ["Drama", "Mystery", "Western"],
+        "numrating":47344,
+        "rating":7.5,
+        "attori": ["Clint Eastwood"]
+    },
+    {
+        "id":185,
+        "nome": "Fiddler on the Roof",
+        "anno":1971,
+        "genere": ["Drama", "Family", "Musical"],
+        "numrating":37023,
+        "rating":8
+    },
+    {
+        "id":186,
+        "nome": "Ray",
+        "anno":2004,
+        "genere": ["Biography", "Drama", "Music"],
+        "numrating":132847,
+        "rating":7.7,
+        "attori": ["Jamie Foxx"]
+    },
+    {
+        "id":187,
+        "nome": "The Day of the Jackal",
+        "anno":1973,
+        "genere": ["Crime", "Drama", "Thriller"],
+        "numrating":35655,
+        "rating":7.8
+    },
+    {
+        "id":188,
+        "nome": "Cast Away",
+        "anno":2000,
+        "genere": ["Crime", "Drama", "Thriller"],
+        "numrating":496034,
+        "rating":7.8,
+        "attori": ["Tom Hanks"]
+    },
+    {
+        "id":189,
+        "nome": "The Crow",
+        "anno":1994,
+        "genere": ["Action", "Drama", "Fantasy"],
+        "numrating":160626,
+        "rating":7.6
+    },
+    {
+        "id":190,
+        "nome": "As Good as It Gets",
+        "anno":1997,
+        "genere": ["Comedy", "Drama", "Romance"],
+        "numrating":264137,
+        "rating":7.7,
+        "attori": ["Jack Nicholson"]
+    },
+    {
+        "id":191,
+        "nome": "The Tenant",
+        "anno":1976,
+        "genere": ["Drama", "Thriller"],
+        "numrating":36836,
+        "rating":7.7,
+        "attori": ["Roman Polanski"]
+    },
+    {
+        "id":192,
+        "nome": "Pi",
+        "anno":1998,
+        "genere": ["Drama", "Horror", "Mystery"],
+        "numrating":164768,
+        "rating":7.4
+    },
+    {
+        "id": 193,
+        "nome": "Titanic",
+        "anno":1997,
+        "genere": ["Drama", "Romance"],
+        "numrating":1000360,
+        "rating":7.8,
+        "attori": ["Leonardo DiCaprio", "Kate Winslet", "James Cameron"]
+    },
+    {
+        "id": 194,
+        "nome": "The Aviator",
+        "anno":2004,
+        "genere": ["Biography", "Drama"],
+        "numrating":320368,
+        "rating":7.5,
+        "attori": ["Leonardo DiCaprio", "Martin Scorsese"]
+    },
+    {
+        "id":195,
+        "nome": "Collateral",
+        "anno":2004,
+        "genere": ["Crime", "Drama", "Thriller"],
+        "numrating":345562,
+        "rating":7.5,
+        "attori": ["Tom Cruise", "Jamie Foxx"]
+    },
+    {
+        "id": 196,
+        "nome": "Chicago",
+        "anno":2002,
+        "genere": ["Comedy", "Crime", "Musical"],
+        "numrating":208460,
+        "rating":7.1
+    },
+    {
+        "id":197,
+        "nome": "Hoosiers",
+        "anno":1986,
+        "genere": ["Drama", "Sport"],
+        "numrating":41117,
+        "rating":7.5
+    },
+    {
+        "id": 198,
+        "nome": "Mulan",
+        "anno":1998,
+        "genere": ["Animation", "Adventure", "Family"],
+        "numrating":237144,
+        "rating":7.6
+    },
+    {
+        "id":199,
+        "nome": "Sin City",
+        "anno":2005,
+        "genere": ["Crime", "Thriller"],
+        "numrating":727278,
+        "rating":8,
+        "attori": ["Bruce Willis", "Jessica Alba", "Quentin Tarantino"]
+    },
+    {
+        "id":200,
+        "nome": "Tombstone",
+        "anno":1993,
+        "genere": ["Action", "Biography", "Drama"],
+        "numrating":119859,
+        "rating":7.8
+    },
+    {
+        "id": 201,
+        "nome": "Videodrome",
+        "anno":1983,
+        "genere": ["Horror", "Sci-Fi", "Thriller"],
+        "numrating":78997,
+        "rating":7.2
+    },
+    {
+        "id":202,
+        "nome": "Mildred Pierce",
+        "anno":1945,
+        "genere": ["Crime", "Drama", "Film-Noir"],
+        "numrating":21294,
+        "rating":8
+    },
+    {
+        "id":203,
+        "nome": "Inside Man",
+        "anno":2006,
+        "genere": ["Crime", "Drama", "Mystery"],
+        "numrating":323899,
+        "rating":7.6,
+        "attori": ["Jodie Foster"]
+    },
+    {
+        "id":204,
+        "nome": "Bloody Sunday",
+        "anno":2002,
+        "genere": ["Drama", "History", "War"],
+        "numrating":22584,
+        "rating":7.6
+    },
+    {
+        "id":205,
+        "nome": "Predator",
+        "anno":1987,
+        "genere": ["Action", "Adventure", "Sci-Fi"],
+        "numrating":357762,
+        "rating":7.8,
+        "attori": ["Arnold Schwarzenegger"]
+    },
+    {
+        "id":206,
+        "nome": "Garden State",
+        "anno":2004,
+        "genere": ["Comedy", "Drama", "Romance"],
+        "numrating":203664,
+        "rating":7.4
+    },
+    {
+        "id":207,
+        "nome": "In the Bedroom",
+        "anno":2001,
+        "genere": ["Crime", "Drama"],
+        "numrating":36382,
+        "rating":7.4
+    },
+    {
+        "id":208,
+        "nome": "21 Grams",
+        "anno":2003,
+        "genere": ["Crime", "Drama", "Thriller"],
+        "numrating":218087,
+        "rating":7.7,
+        "attori": ["Sean Penn"]
+    },
+    {
+        "id":209,
+        "nome": "Drugstore Cowboy",
+        "anno":1989,
+        "genere": ["Crime", "Drama"],
+        "numrating":30854,
+        "rating":7.3
+    },
+    {
+        "id":210,
+        "nome": "Far from Heaven",
+        "anno":2002,
+        "genere": ["Drama"],
+        "numrating":42494,
+        "rating":7.3
+    },
+    {
+        "id":211,
+        "nome": "Angels with Dirty Faces",
+        "anno":1938,
+        "genere": ["Crime", "Drama"," Film-Noir"],
+        "numrating":19025,
+        "rating":7.9
+    },
+    {
+        "id":212,
+        "nome": "Elizabeth",
+        "anno":1998,
+        "genere": ["Biography", "Drama", "History"],
+        "numrating":88869,
+        "rating":7.4
+    },
+    {
+        "id":213,
+        "nome": "Dark City",
+        "anno":1998,
+        "genere": ["Mystery", "Sci-Fi", "Thriller"],
+        "numrating":181971,
+        "rating":7.6
+    },
+    {
+        "id":214,
+        "nome": "Dumbo",
+        "anno":1941,
+        "genere": ["Animation", "Drama", "Family"],
+        "numrating":114001,
+        "rating":7.2  
+    },
+    {
+        "id":215,
+        "nome": "Gilda",
+        "anno":1946,
+        "genere": ["Drama", "Film-Noir", "Romance"],
+        "numrating":26147,
+        "rating":7.7
+    },
+    {
+        "id":216,
+        "nome": "Batman",
+        "anno":1989,
+        "genere": ["Action", "Adventure"],
+        "numrating":325845,
+        "rating":7.5,
+        "attori": ["Jack Nicholson", "Michael Keaton", "Tim Burton"]
+    },
+    {
+        "id":217,
+        "nome": "King Kong",
+        "anno":2005,
+        "genere": ["Action", "Adventure", "Drama"],
+        "numrating":378354,
+        "rating":7.2
+    },
+    {
+        "id":218,
+        "nome": "Metropolis",
+        "anno":2001,
+        "genere": ["Animation", "Adventure", "Drama"],
+        "numrating":19601,
+        "rating":7.2
+    },
+    {
+        "id":219,
+        "nome": "Independence Day",
+        "anno":1996,
+        "genere": ["Action", "Adventure", "Sci-Fi"],
+        "numrating":511037,
+        "rating":7,
+        "attori": ["Will Smith"]
+    },
+    {
+        "id":220,
+        "nome": "Wall Street",
+        "anno":1987,
+        "genere": ["Crime", "Drama"],
+        "numrating":138446,
+        "rating":7.4,
+        "attori": ["Michael Douglas"]
+    },
+    {
+        "id":221,
+        "nome": "Armageddon",
+        "anno":1998,
+        "genere": ["Action", "Adventure", "Sci-Fi"],
+        "numrating":383368,
+        "rating":6.7,
+        "attori": ["Bruce Willis", "Ben Affleck"]
+    },
+    {
+        "id":222,
+        "nome": "The Manchurian Candidate",
+        "anno":2004,
+        "genere": ["Drama", "Mystery", "Sci-Fi"],
+        "numrating": 99792,
+        "rating":6.6
+    },
+    {
+        "id":223,
+        "nome": "The Ring",
+        "anno":2002,
+        "genere": ["Horror", "Mystery"],
+        "numrating":309286,
+        "rating":7.1
+    },
+    {
+        "id":224,
+        "nome": "Dead Birds",
+        "anno":2004,
+        "genere": ["Horror", "Thriller", "Western"],
+        "numrating":9483,
+        "rating":5.6
+    },
+    {
+        "id":225,
+        "nome": "The Producers",
+        "anno":2005,
+        "genere": ["Comedy", "Music"],
+        "numrating":39542,
+        "rating":6.3,
+        "attori": ["Uma Thurman"]
+    },
+    {
+        "id":226,
+        "nome": "Sky High",
+        "anno":2005,
+        "genere": ["Adventure", "Comedy", "Family"],
+        "numrating":75322,
+        "rating":6.2
+    },
+    {
+        "id":227,
+        "nome": "Heaven Can Wait",
+        "anno":1978,
+        "genere": ["Comedy", "Fantasy", "Romance"],
+        "numrating":17603,
+        "rating":6.9
+    },
+    {
+        "id":228,
+        "nome": "Spider-Man",
+        "anno":2002,
+        "genere": ["Action", "Adventure", "Sci-Fi"],
+        "numrating":663386,
+        "rating":7.3
+    },
+    {
+        "id":229,
+        "nome": "The Patriot",
+        "anno":2000,
+        "genere": ["Action", "Drama", "History"],
+        "numrating":245360,
+        "rating":7.2,
+        "attori": ["Mel Gibson", "Heath Ledger"]
+    },
+    {
+        "id":230,
+        "nome": "Private Benjamin",
+        "anno":1980,
+        "genere": ["Comedy", "War"],
+        "numrating":22534,
+        "rating":6.2
+    },
+    {
+        "id":231,
+        "nome": "The Little Mermaid",
+        "anno":1989,
+        "genere": ["Animation", "Family", "Fantasy"],
+        "numrating":225808,
+        "rating":7.6
+    },
+    {
+        "id":232,
+        "nome": "Gentlemen Prefer Blondes",
+        "anno":1953,
+        "genere": ["Comedy", "Musical", "Romance"],
+        "numrating":29562,
+        "rating":7.2,
+        "attori": ["Marilyn Monroe"]
+    },
+    {
+        "id":233,
+        "nome": "Escape to Witch Mountain",
+        "anno":1995,
+        "genere": ["Adventure", "Family", "Fantasy"],
+        "numrating":1282,
+        "rating":6.5
+    },
+    {
+        "id":234,
+        "nome": "The Mummy",
+        "anno":1999,
+        "genere": ["Action", "Adventure", "Fantasy"],
+        "numrating": 377389,
+        "rating":7
+    },
+    {
+        "id":235,
+        "nome": "Tomcats",
+        "anno":2001,
+        "genere": ["Comedy"],
+        "numrating":17108,
+        "rating":5.4
+    },
+    {
+        "id":236,
+        "nome": "Underworld",
+        "anno":2003,
+        "genere": ["Action", "Fantasy", "Thriller"],
+        "numrating":245530,
+        "rating":7
+    },
+    {
+        "id":237,
+        "nome": "Cheaper by the Dozen",
+        "anno":2003,
+        "genere": ["Comedy", "Family"],
+        "numrating":90105,
+        "rating":6
+    },
+    {
+        "id":238,
+        "nome": "Impromptu",
+        "anno":1991,
+        "genere": ["Biography", "Comedy", "Music"],
+        "numrating":4513,
+        "rating":6.9,
+        "attori": ["Hugh Grant"]
+    },
+    {
+        "id":239,
+        "nome": "Thirteen",
+        "anno":2003,
+        "genere": ["Drama"],
+        "numrating":77510,
+        "rating":6.8
+    },
+    {
+        "id":240,
+        "nome": "Hardcore",
+        "anno":1979,
+        "genere": ["Crime", "Drama"],
+        "numrating":8184,
+        "rating":7
+    },
+    {
+        "id":241,
+        "nome": "Home on the Range",
+        "anno":2004,
+        "genere": ["Animation", "Adventure", "Comedy"],
+        "numrating":18959,
+        "rating":5.3
+    },
+    {
+        "id":242,
+        "nome": "Big Daddy",
+        "anno":1999,
+        "genere": ["Comedy", "Drama"],
+        "numrating":191877,
+        "rating":6.4,
+        "attori": ["Adam Sandler"]
+    },
+    {
+        "id":243,
+        "nome": "Sylvia",
+        "anno":2003,
+        "genere": ["Biography", "Drama", "Romance"],
+        "numrating":10066,
+        "rating":6.3,
+        "attori": ["Gwyneth Paltrow"]
+    },
+    {
+        "id":244,
+        "nome": "Rush Hour",
+        "anno":1998,
+        "genere": ["Action", "Comedy", "Crime"],
+        "numrating":229446,
+        "rating":7,
+        "attori": ["Jackie Chan"]
+    },
+    {
+        "id":245,
+        "nome": "Man on Fire",
+        "anno":2004,
+        "genere": ["Action", "Crime", "Drama"],
+        "numrating":317921,
+        "rating":7.7,
+        "attori": ["Denzel Washington"]
+    },
+    {
+        "id":246,
+        "nome": "War of the Worlds",
+        "anno":2005,
+        "genere": ["Adventure", "Sci-Fi", "Thriller"],
+        "numrating":401291,
+        "rating":6.5,
+        "attori": ["Tom Cruise", "Steven Spielberg"]
+    },
+    {
+        "id":247,
+        "nome": "Cabin Fever",
+        "anno":2002,
+        "genere": ["Horror"],
+        "numrating": 71974,
+        "rating":5.7
+    },
+    {
+        "id":248,
+        "nome": "The One",
+        "anno":2001,
+        "genere": ["Action", "Sci-Fi", "Thriller"],
+        "numrating":86882,
+        "rating":6
+    },
+    {
+        "id":249,
+        "nome": "Dirty Work",
+        "anno":1998,
+        "genere": ["Comedy"],
+        "numrating":22901,
+        "rating":6.5
+    },
+    {
+        "id":250,
+        "nome": "Jersey Girl",
+        "anno":2004,
+        "genere": ["Comedy", "Drama", "Romance"],
+        "numrating":61788,
+        "rating":6.2,
+        "attori": ["Ben Affleck"]
+    },
+    {
+        "id":251,
+        "nome": "Walking Tall",
+        "anno":2004,
+        "genere": ["Action", "Crime"],
+        "numrating": 68346,
+        "rating":6.3,
+        "attori": ["Dwayne Johnson"]
+    },
+    {
+        "id":252,
+        "nome": "Moulin Rouge",
+        "anno":1952,
+        "genere": ["Biography", "Drama", "Music"],
+        "numrating": 4729,
+        "rating":7.1
+    },
+    {
+        "id":253,
+        "nome": "Fantasia 2000",
+        "anno":1999,
+        "genere": ["Animation", "Comedy", "Family"],
+        "numrating": 33489,
+        "rating":7.2
+    },
+    {
+        "id":254,
+        "nome": "Tuck Everlasting",
+        "anno":2002,
+        "genere": ["Drama", "Family", "Fantasy"],
+        "numrating": 20509,
+        "rating":6.6
+    },
+    {
+        "id":255,
+        "nome": "Oliver Twist",
+        "anno":2005,
+        "genere": ["Crime", "Drama"],
+        "numrating": 30101,
+        "rating":6.8,
+        "attori": ["Roman Polanski"]
+    },
+    {
+        "id":256,
+        "nome": "The Shaggy Dog",
+        "anno":2006,
+        "genere": ["Comedy", "Family", "Fantasy"],
+        "numrating": 17694,
+        "rating":4.4
+    },
+    {
+        "id":257,
+        "nome": "Wolf",
+        "anno":1994,
+        "genere": ["Drama", "Horror", "Romance"],
+        "numrating": 50742,
+        "rating":6.2,
+        "attori": ["Jack Nicholson"]
+    },
+    {
+        "id":258,
+        "nome": "Alone in the Dark",
+        "anno":2005,
+        "genere": ["Action", "Horror", "Sci-Fi"],
+        "numrating": 41056,
+        "rating":2.4
+    },
+    {
+        "id":259,
+        "nome": "Behind Enemy Lines",
+        "anno":2001,
+        "genere": ["Action", "Drama", "Thriller"],
+        "numrating": 96478,
+        "rating":6.4
+    },
+    {
+        "id":260,
+        "nome": "The Apartment",
+        "anno":1996,
+        "genere": ["Drama", "Mystery", "Romance"],
+        "numrating": 13191,
+        "rating":7.4
+    },
+    {
+        "id":261,
+        "nome": "The Village",
+        "anno":2004,
+        "genere": ["Drama", "Mystery", "Thriller"],
+        "numrating": 234922,
+        "rating":6.5
+    },
+    {
+        "id":262,
+        "nome": "Peter Pan",
+        "anno":2003,
+        "genere": ["Adventure", "Family", "Fantasy"],
+        "numrating": 64006,
+        "rating":6.8
+    },
+    {
+        "id":263,
+        "nome": "The In-Laws",
+        "anno":2003,
+        "genere": ["Action", "Comedy", "Thriller"],
+        "numrating": 15885,
+        "rating":6,
+        "attori": ["Michael Douglas"]
+    },
+    {
+        "id":264,
+        "nome": "The Libertine",
+        "anno":2004,
+        "genere": ["Biography", "Drama", "History"],
+        "numrating": 34090,
+        "rating":6.3,
+        "attori": ["Johnny Depp"]
+    },
+    {
+        "id":265,
+        "nome": "Babel",
+        "anno":2006,
+        "genere": ["Drama"],
+        "numrating": 280660,
+        "rating":7.4,
+        "attori": ["Brad Pitt"]
+    },
+    {
+        "id":266,
+        "nome": "300",
+        "anno":2006,
+        "genere": ["Action", "Drama"],
+        "numrating": 712101,
+        "rating":7.6,
+        "attori": ["Gerard Butler"]
+    },
+    {
+        "id":267,
+        "nome": "Blood Diamond",
+        "anno":2006,
+        "genere": ["Adventure", "Drama", "Thriller"],
+        "numrating": 479303,
+        "rating":8,
+        "attori": ["Leonardo DiCaprio"]
+    },
+    {
+        "id":268,
+        "nome": "Alpha Dog",
+        "anno":2006,
+        "genere": ["Biography", "Crime", "Drama"],
+        "numrating": 96858,
+        "rating":6.9,
+        "attori": ["Emile Hirsch", "Justin Timberlake"]
+    },
+    {
+        "id":269,
+        "nome": "We Are Marshall",
+        "anno":2006,
+        "genere": ["Drama", "Sport"],
+        "numrating": 55392,
+        "rating":7.1,
+        "attori": ["Matthew McConaughey"]
+    },
+    {
+        "id": 270,
+        "nome": "Apocalypto",
+        "anno":2006,
+        "genere": ["Action", "Adventure", "Drama"],
+        "numrating": 278981,
+        "rating":7.8,
+        "attori": ["Mel Gibson"]
+    },
+    {
+        "id":271,
+        "nome": "Stranger than Fiction",
+        "anno":2006,
+        "genere": ["Comedy", "Drama", "Fantasy"],
+        "numrating": 212467,
+        "rating":7.6,
+        "attori": ["Dustin Hoffman"]
+    },
+    {
+        "id": 272,
+        "nome": "Saw",
+        "anno":2004,
+        "genere": ["Horror", "Mystery", "Thriller"],
+        "numrating": 365189,
+        "rating":7.6
+    },
+    {
+        "id": 273,
+        "nome": "Match Point",
+        "anno":2005,
+        "genere": ["Drama", "Romance", "Thriller"],
+        "numrating": 198551,
+        "rating":7.6,
+        "attori": ["Scarlett Johansson", "Woody Allen"]
+    },
+    {
+        "id":274,
+        "nome": "The Machinist",
+        "anno":2004,
+        "genere": ["Drama", "Thriller"],
+        "numrating": 342898,
+        "rating":7.7,
+        "attori": ["Christian Bale"]
+    },
+    {
+        "id":275,
+        "nome": "The Last Samurai",
+        "anno":2003,
+        "genere": ["Action", "Drama", "War"],
+        "numrating": 383434,
+        "rating":7.7,
+        "attori": ["Tom Cruise"]
+    },
+    {
+        "id":276,
+        "nome": "Once Upon a Time in Mexico",
+        "anno":2003,
+        "genere": ["Action", "Crime", "Thriller"],
+        "numrating": 149418,
+        "rating":6.4,
+        "attori": ["Antonio Banderas"]
+    },
+    {
+        "id":277,
+        "nome": "8 Mile",
+        "anno":2002,
+        "genere": ["Drama", "Music"],
+        "numrating": 239202,
+        "rating":7.1,
+        "attori": ["Marshall Mathers"]
+    },
+    {
+        "id":278,
+        "nome": "Enemy at the Gates",
+        "anno":2001,
+        "genere": ["Drama", "History", "War"],
+        "numrating": 233275,
+        "rating":7.6,
+        "attori": ["Jude Law"]
+    },
+    {
+        "id":279,
+        "nome": "Kingdom of Heaven",
+        "anno":2005,
+        "genere": ["Action", "Adventure", "Drama"],
+        "numrating": 257893,
+        "rating":7.2,
+        "attori": ["Orlando Bloom", "Ridley Scott"]
+    },
+    {
+        "id":280,
+        "nome": "Hitch",
+        "anno":2005,
+        "genere": ["Comedy", "Romance"],
+        "numrating": 287095,
+        "rating":6.6,
+        "attori": ["Will Smith", "Eva Mendes"]
+    },
+    {
+        "id":281,
+        "nome": "Harry Potter and the Chamber of Secrets",
+        "anno":2002,
+        "genere": ["Adventure", "Family", "Fantasy"],
+        "numrating": 519668,
+        "rating":7.4,
+        "attori": ["Daniel Radcliffe", "Emma Watson"]
+    },
+    {
+        "id":282,
+        "nome": "The Pledge",
+        "anno":2001,
+        "genere": ["Crime", "Drama", "Mystery"],
+        "numrating": 51618,
+        "rating":6.8,
+        "attori": ["Jack Nicholson", "Sean Penn"]
+    },
+    {
+        "id":283,
+        "nome": "American Psycho",
+        "anno":2000,
+        "genere": ["Comedy", "Crime", "Drama"],
+        "numrating": 457948,
+        "rating":7.6,
+        "attori": ["Christian Bale"]
+    },
+    {
+        "id":284,
+        "nome": "Unbreakable",
+        "anno":2000,
+        "genere": ["Drama", "Mystery", "Sci-Fi"],
+        "numrating": 372742,
+        "rating":7.3,
+        "attori": ["Bruce Willis", "Samuel L. Jackson"]
+    },
+    {
+        "id": 285,
+        "nome": "Any Given Sunday",
+        "anno":1999,
+        "genere": ["Drama", "Sport"],
+        "numrating": 109183,
+        "rating":6.9,
+        "attori": ["Al Pacino", "Cameron Diaz"]
+    },
+    {
+        "id": 286,
+        "nome": "Sleepy Hollow",
+        "anno":1999,
+        "genere": ["Fantasy", "Horror", "Mystery"],
+        "numrating": 316856,
+        "rating":7.3,
+        "attori": ["Johnny Depp", "Tim Burton"]
+    },
+    {
+        "id":287,
+        "nome": "Vanilla Sky",
+        "anno":2001,
+        "genere": ["Fantasy", "Mystery", "Romance"],
+        "numrating": 240342,
+        "rating":6.9,
+        "attori": ["Tom Cruise", "Penelope Cruz", "Cameron Diaz"]
+    },
+    {
+        "id":288,
+        "nome": "Miss Congeniality",
+        "anno":2000,
+        "genere": ["Action", "Comedy", "Crime"],
+        "numrating": 178394,
+        "rating":6.2,
+        "attori": ["Sandra Bullock"]
+    }
+]
+}
