@@ -22,6 +22,7 @@ const Form = ({history}) => {
 
     const onSubmit = (e) => {
         e.preventDefault()
+        console.log(trasparenza, persuasione, coinvolgimento, fiducia)
         addPrefs({trasparenza, persuasione, coinvolgimento, fiducia})
         history.push("/results3")
     }
