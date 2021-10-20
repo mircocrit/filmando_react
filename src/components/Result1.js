@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { useState, useEffect } from 'react'
+import { withRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from './Card';
 import Form from './Form';
@@ -59,4 +60,4 @@ const Result1 = ({history, attenzione, compagnia, umore}) => {
   );
 }
 
-export default Result1;
+export default withRouter(Result1);

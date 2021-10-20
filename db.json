@@ -55,6 +55,22 @@
       "frequenza": "1",
       "recSys": "no",
       "id": 168
+    },
+    {
+      "eta": "2",
+      "genere": "donna",
+      "titoloStudio": "2",
+      "frequenza": "1",
+      "recSys": "si",
+      "id": 169
+    },
+    {
+      "eta": "2",
+      "genere": "uomo",
+      "titoloStudio": "1",
+      "frequenza": "2",
+      "recSys": "si",
+      "id": 170
     }
   ],
   "contexts": [
@@ -117,6 +133,18 @@
       "compagnia": "Family",
       "umore": "",
       "id": 178
+    },
+    {
+      "attenzione": "High",
+      "compagnia": "Family",
+      "umore": "",
+      "id": 179
+    },
+    {
+      "attenzione": "High",
+      "compagnia": "Partner",
+      "umore": "Good",
+      "id": 180
     }
   ],
   "unigrammi": [
@@ -4761,6 +4789,16 @@
       "persuasione": 3,
       "coinvolgimento": 3,
       "fiducia": 3
+    }
+  ],
+  "prefs2": [
+    {
+      "preferenza": "2",
+      "trasparenza": "1",
+      "persuasione": "1",
+      "coinvolgimento": "2",
+      "fiducia": "1",
+      "id": 1
     }
   ]
 }

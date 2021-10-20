@@ -2,13 +2,14 @@ import React from 'react';
 import { useState } from 'react'
 import { useHistory } from "react-router-dom";
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+
 import Start from './components/Start';
 import FormUsers from './components/FormUsers';
 import FormContexts from './components/FormContexts';
 import Result1 from './components/Result1';
-import Success from './components/Success';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Result3 from './components/Result3';
 
 const App = () => {
   const [attenzione, setAttenzione] = useState('')
@@ -50,9 +51,11 @@ const App = () => {
               />
             </Route>
 
-            <Route path='/end' exact> 
-              <Success/>
+            <Route path='/results3' exact>   
+              <Result3 history={history}
+              />
             </Route>
+
           </Switch>
       </Router>
 

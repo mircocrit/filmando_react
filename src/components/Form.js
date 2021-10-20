@@ -9,22 +9,23 @@ const Form = ({history}) => {
     const [coinvolgimento, setCoinvolgimento] = useState(3)
     const [fiducia, setFiducia] = useState(3)
 
+    function addPrefs(pref){
+      fetch('http://localhost:5000/prefs', 
+      {
+        method: 'POST',
+        headers: {
+          'Content-type': 'application/json'
+        },
+        body: JSON.stringify(pref),
+      })
+    }
+
     const onSubmit = (e) => {
         e.preventDefault()
         addPrefs({trasparenza, persuasione, coinvolgimento, fiducia})
-        history.push("/end")   //replace
+        history.push("/results3")
     }
     
-    function addPrefs(pref){
-        fetch('http://localhost:5000/prefs', 
-        {
-          method: 'POST',
-          headers: {
-            'Content-type': 'application/json'
-          },
-          body: JSON.stringify(pref),
-        })
-      }
 
     return (
       <div class="container-fluid bg-light">
@@ -54,8 +55,7 @@ const Form = ({history}) => {
                 <label htmlFor="pref1"> <h6>I understood why the movie was suggested to me:</h6></label>
                 <div align="center" class="font-weight-bold">{trasparenza}</div>
                   <input type="range" class="slider" id="pref1" min="1" max="5" 
-                       value={trasparenza}
-                       onChange={(e) => setTrasparenza(e.target.value)}/>
+                       value={trasparenza} onChange={(e) => setTrasparenza(e.target.value)}/>
               </div>
             </div>
 
@@ -64,8 +64,7 @@ const Form = ({history}) => {
                 <label htmlFor="pref2"> <h6>The justification made the suggestion more convincing:</h6> </label>
                 <div align="center" class="font-weight-bold">{persuasione}</div>
                   <input type="range" class="slider" id="pref2" min="1" max="5" 
-                       value={persuasione}
-                       onChange={(e) => setPersuasione(e.target.value)}/>
+                       value={persuasione} onChange={(e) => setPersuasione(e.target.value)}/>
               </div>
             </div>
 
@@ -74,8 +73,7 @@ const Form = ({history}) => {
                 <label htmlFor="pref3"><h6>The justification allowed me to discover new information about the movie</h6> </label>
                 <div align="center" class="font-weight-bold">{coinvolgimento}</div>
                   <input type="range" class="slider" id="pref3" min="1" max="5" 
-                       value={coinvolgimento}
-                       onChange={(e) => setCoinvolgimento(e.target.value)}/>
+                       value={coinvolgimento} onChange={(e) => setCoinvolgimento(e.target.value)}/>
               </div>
             </div>
 
@@ -84,8 +82,7 @@ const Form = ({history}) => {
                 <label htmlFor="pref4"> <h6>The justification has increased my level of trust in the recommender system:</h6></label>
                 <div align="center" class="font-weight-bold">{fiducia}</div>
                   <input type="range" class="slider" id="pref4" min="1" max="5" 
-                       value={fiducia}
-                       onChange={(e) => setFiducia(e.target.value)}/>
+                       value={fiducia} onChange={(e) => setFiducia(e.target.value)}/>
               </div>
             </div>
           </div>
