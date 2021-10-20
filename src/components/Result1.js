@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { useState, useEffect } from 'react'
 import { withRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -6,8 +6,6 @@ import Card from './Card';
 import Form from './Form';
 
 const Result1 = ({history, attenzione, compagnia, umore, copyMovie, copyListMovie}) => {
-  const [isLoading, setIsLoading] = useState(true)
-  const [listmovie, setListmovie] = useState([])
   const [movie, setMovie] = useState({
     id: 0,
     nome: "",
@@ -24,13 +22,10 @@ const Result1 = ({history, attenzione, compagnia, umore, copyMovie, copyListMovi
   }
 
   useEffect(() => {
-    setIsLoading(true)
     fetch(`http://localhost:5000/unigrammi?attenzione=${attenzione}&compagnia=${compagnia}&umore=${umore}`)
       .then(response => response.json())
       .then(data =>{
-          console.log(data)
           const lista = data[0].listafilm
-          setListmovie(lista)
           copyListMovie(lista)
           console.log(lista)
           return lista
@@ -49,7 +44,6 @@ const Result1 = ({history, attenzione, compagnia, umore, copyMovie, copyListMovi
                   attori: object.attori
                 })
                 copyMovie(object)
-                setIsLoading(false)
               })
         })
   }, [])
@@ -58,10 +52,10 @@ const Result1 = ({history, attenzione, compagnia, umore, copyMovie, copyListMovi
       <div className="container">
         <Card movie={movie} />
 
-        <div class="card text-center bg-white">
-          <div class="card-body">
-            <h2 class="card-title">Justification 1</h2>
-            <p class="card-text">{spiegazione}</p>
+        <div className="card text-center bg-white">
+          <div className="card-body">
+            <h2 className="card-title">Justification 1</h2>
+            <p className="card-text">{spiegazione}</p>
           </div>
         </div>
         <br/>

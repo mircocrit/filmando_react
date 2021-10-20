@@ -1,254 +1,20 @@
 {
   "users": [
     {
-      "eta": "1",
-      "genere": "uomo",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 54
-    },
-    {
-      "eta": "2",
-      "genere": "uomo",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 55
-    },
-    {
-      "eta": "1",
-      "genere": "uomo",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 159
-    },
-    {
-      "eta": "2",
-      "genere": "uomo",
-      "titoloStudio": "2",
-      "frequenza": "2",
-      "recSys": "si",
-      "id": 161
-    },
-    {
-      "eta": "1",
-      "genere": "uomo",
-      "titoloStudio": "2",
-      "frequenza": "2",
-      "recSys": "si",
-      "id": 166
-    },
-    {
-      "eta": "2",
-      "genere": "uomo",
-      "titoloStudio": "2",
-      "frequenza": "2",
-      "recSys": "no",
-      "id": 167
-    },
-    {
-      "eta": "1",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "no",
-      "id": 168
-    },
-    {
-      "eta": "2",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 169
-    },
-    {
-      "eta": "2",
-      "genere": "uomo",
-      "titoloStudio": "1",
-      "frequenza": "2",
-      "recSys": "si",
-      "id": 170
-    },
-    {
-      "eta": "1",
-      "genere": "uomo",
-      "titoloStudio": "1",
-      "frequenza": "2",
-      "recSys": "si",
-      "id": 171
-    },
-    {
       "eta": "2",
       "genere": "uomo",
       "titoloStudio": "3",
-      "frequenza": "2",
-      "recSys": "si",
-      "id": 172
-    },
-    {
-      "eta": "1",
-      "genere": "uomo",
-      "titoloStudio": "1",
       "frequenza": "1",
       "recSys": "si",
-      "id": 173
-    },
-    {
-      "eta": "1",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "2",
-      "recSys": "si",
-      "id": 174
-    },
-    {
-      "eta": "2",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "2",
-      "recSys": "si",
-      "id": 175
-    },
-    {
-      "eta": "3",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 176
-    },
-    {
-      "eta": "2",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "2",
-      "recSys": "si",
-      "id": 177
+      "id": 1
     }
   ],
   "contexts": [
     {
-      "attenzione": "Low",
-      "compagnia": "",
-      "umore": "",
-      "id": 50
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 155
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 171
-    },
-    {
       "attenzione": "",
-      "compagnia": "Partner",
-      "umore": "Bad",
-      "id": 172
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "Family",
-      "umore": "",
-      "id": 173
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 174
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Partner",
-      "umore": "Good",
-      "id": 175
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "Partner",
-      "umore": "Bad",
-      "id": 176
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 177
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Family",
-      "umore": "",
-      "id": 178
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "Family",
-      "umore": "",
-      "id": 179
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "Partner",
-      "umore": "Good",
-      "id": 180
-    },
-    {
-      "attenzione": "Low",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 181
-    },
-    {
-      "attenzione": "Low",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 182
-    },
-    {
-      "attenzione": "High",
       "compagnia": "",
       "umore": "Bad",
-      "id": 183
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Partner",
-      "umore": "Bad",
-      "id": 184
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "Family",
-      "umore": "",
-      "id": 185
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "",
-      "umore": "",
-      "id": 186
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "",
-      "umore": "",
-      "id": 187
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "Family",
-      "umore": "",
-      "id": 188
+      "id": 1
     }
   ],
   "unigrammi": [
@@ -4883,184 +4649,31 @@
   ],
   "prefs": [
     {
-      "trasparenza": 3,
-      "persuasione": 3,
-      "coinvolgimento": 3,
-      "fiducia": 3,
-      "id": 1
-    },
-    {
-      "trasparenza": 3,
+      "trasparenza": "4",
       "persuasione": "4",
-      "coinvolgimento": 3,
-      "fiducia": 3,
-      "id": 2
-    },
-    {
-      "trasparenza": 3,
-      "persuasione": 3,
-      "coinvolgimento": 3,
-      "fiducia": 3,
-      "id": 3
-    },
-    {
-      "trasparenza": 3,
-      "persuasione": "5",
       "coinvolgimento": "5",
-      "fiducia": "5",
-      "id": 4
-    },
-    {
-      "trasparenza": 3,
-      "persuasione": 3,
-      "coinvolgimento": 3,
-      "fiducia": 3,
-      "id": 5
-    },
-    {
-      "trasparenza": 3,
-      "persuasione": 3,
-      "coinvolgimento": 3,
-      "fiducia": 3,
-      "id": 6
-    },
-    {
-      "trasparenza": 3,
-      "persuasione": 3,
-      "coinvolgimento": 3,
-      "fiducia": 3,
-      "id": 7
-    },
-    {
-      "trasparenza": 3,
-      "persuasione": 3,
-      "coinvolgimento": 3,
-      "fiducia": 3,
-      "id": 8
+      "fiducia": "4",
+      "id": 1
     }
   ],
   "prefs2": [
     {
-      "preferenza": "2",
+      "preferenza": "1",
       "trasparenza": "1",
       "persuasione": "1",
-      "coinvolgimento": "2",
+      "coinvolgimento": "1",
       "fiducia": "1",
       "id": 1
-    },
-    {
-      "preferenza": 0,
-      "trasparenza": 0,
-      "persuasione": 0,
-      "coinvolgimento": 0,
-      "fiducia": 0,
-      "id": 2
-    },
-    {
-      "preferenza": "1",
-      "trasparenza": "2",
-      "persuasione": "1",
-      "coinvolgimento": 0,
-      "fiducia": 0,
-      "id": 3
-    },
-    {
-      "preferenza": 0,
-      "trasparenza": "1",
-      "persuasione": 0,
-      "coinvolgimento": 0,
-      "fiducia": 0,
-      "id": 4
-    },
-    {
-      "preferenza": "2",
-      "trasparenza": "1",
-      "persuasione": "1",
-      "coinvolgimento": "1",
-      "fiducia": 0,
-      "id": 5
-    },
-    {
-      "preferenza": "2",
-      "trasparenza": "1",
-      "persuasione": "2",
-      "coinvolgimento": "1",
-      "fiducia": 0,
-      "id": 6
-    },
-    {
-      "preferenza": 0,
-      "trasparenza": 0,
-      "persuasione": 0,
-      "coinvolgimento": "2",
-      "fiducia": 0,
-      "id": 7
-    },
-    {
-      "preferenza": 0,
-      "trasparenza": 0,
-      "persuasione": 0,
-      "coinvolgimento": 0,
-      "fiducia": 0,
-      "id": 8
-    },
-    {
-      "preferenza": 0,
-      "trasparenza": 0,
-      "persuasione": 0,
-      "coinvolgimento": 0,
-      "fiducia": 0,
-      "id": 9
     }
   ],
   "prefs3": [
     {
-      "preferenza": 0,
-      "trasparenza": 0,
-      "persuasione": 0,
-      "coinvolgimento": 0,
-      "fiducia": "1",
-      "id": 1
-    },
-    {
-      "preferenza": 0,
-      "trasparenza": "1",
-      "persuasione": "1",
-      "coinvolgimento": "1",
-      "fiducia": 0,
-      "id": 2
-    },
-    {
-      "preferenza": 0,
+      "preferenza": "2",
       "trasparenza": "2",
-      "persuasione": 0,
-      "coinvolgimento": 0,
-      "fiducia": 0,
-      "id": 3
-    },
-    {
-      "preferenza": 0,
-      "trasparenza": "2",
-      "persuasione": 0,
+      "persuasione": "2",
       "coinvolgimento": "2",
-      "fiducia": 0,
-      "id": 4
-    },
-    {
-      "preferenza": 0,
-      "trasparenza": 0,
-      "persuasione": 0,
-      "coinvolgimento": 0,
-      "fiducia": 0,
-      "id": 5
-    },
-    {
-      "preferenza": 0,
-      "trasparenza": "1",
-      "persuasione": "1",
-      "coinvolgimento": 0,
-      "fiducia": 0,
-      "id": 6
+      "fiducia": "2",
+      "id": 1
     }
   ]
 }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { withRouter } from 'react-router-dom';
 
@@ -9,17 +9,17 @@ const Start = ({history}) => {
   };
 
     return (
-      <div class="container-fluid bg-light">
-        <div class="row text-center">
-          <div class="col">
-            <h1 class="display-4">Filmando</h1>
+      <div className="container-fluid bg-light">
+        <div className="row text-center">
+          <div className="col">
+            <h1 className="display-4">Filmando</h1>
             <img src="icons/movie.png" width="160" height="160" alt=""></img>
           </div>
         </div>
 
-        <div class="row text-center">
-          <div class="col">
-            <p class="lead">
+        <div className="row text-center">
+          <div className="col">
+            <p className="lead">
               <b>Filmando</b> will recommend you a movie you will like along with a
               justification based on the <b>context</b> of consumption of the item.
               <br/>
@@ -35,9 +35,9 @@ const Start = ({history}) => {
           </div>
         </div>
 
-        <div class="row text-center">
-          <div class="col">
-            <button type="button" onClick={handleClick} class="btn btn-primary btn-lg">Start!</button>
+        <div className="row text-center">
+          <div className="col">
+            <button type="button" onClick={handleClick} className="btn btn-primary btn-lg">Start!</button>
           </div>
         </div>
         <br/>
