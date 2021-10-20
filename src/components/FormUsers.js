@@ -1,18 +1,30 @@
 import React, { Component } from 'react';
 import { useState } from 'react'
+import { withRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const FormUsers = ({nextStep, prevStep, onAdd }) => {
+const FormUsers = ({history}) => {
   const [eta, setEta] = useState('')
   const [genere, setGenere] = useState('')
   const [titoloStudio, setTitoloStudio] = useState('')
   const [frequenza, setFrequenza] = useState('')
   const [recSys, setRecSys] = useState('')
 
+  function addUsers(user) {
+    fetch('http://localhost:5000/users', 
+    {
+      method: 'POST',
+      headers: {
+        'Content-type': 'application/json'
+      },
+      body: JSON.stringify(user),
+    })
+  }
+
   const onSubmit = (e) => {
     e.preventDefault()
-    onAdd({ eta, genere, titoloStudio, frequenza, recSys})
-    nextStep()
+    addUsers({eta, genere, titoloStudio, frequenza, recSys})
+    history.push("/sceltaContesti")   //replace
   }
 
     return (
@@ -28,8 +40,8 @@ const FormUsers = ({nextStep, prevStep, onAdd }) => {
 
             <div class="col-md-auto">
               <div class="form-group">
-                <label htmlFor="eta"> <h4>Age</h4> </label>
-                <select class="form-control" name="eta" required onChange={(e) => setEta(e.target.value)}>
+                <label htmlFor='eta'> <h4>Age</h4> </label>
+                <select class="form-control" id="eta" required onChange={(e) => setEta(e.target.value)}>
                   <option value="">Open this selection menu</option>
                   <option value="1">under 18</option>
                   <option value="2">18-25</option>
@@ -42,8 +54,8 @@ const FormUsers = ({nextStep, prevStep, onAdd }) => {
 
             <div class="col-md-auto">
               <div class="form-group">
-                <label htmlFor="genere"> <h4>Genre</h4></label>
-                <select class="form-control" name="genere" required onChange={(e) => setGenere(e.target.value)}>
+                <label htmlFor='genere'> <h4>Genre</h4></label>
+                <select class="form-control" id="genere" required onChange={(e) => setGenere(e.target.value)}>
                   <option value="">Open this selection menu</option>
                   <option value="uomo">Man</option>
                   <option value="donna">Woman</option>
@@ -53,8 +65,8 @@ const FormUsers = ({nextStep, prevStep, onAdd }) => {
 
             <div class="col-md-auto">
               <div class="form-group">
-                <label htmlFor="titoloStudio"> <h4>Education</h4></label>
-                <select class="form-control" name="titoloStudio" required onChange={(e) => setTitoloStudio(e.target.value)}>
+                <label htmlFor='titoloStudio'> <h4>Education</h4></label>
+                <select class="form-control" id="titoloStudio" required onChange={(e) => setTitoloStudio(e.target.value)}>
                   <option value="">Open this selection menu</option>
                   <option value="1">High School</option>
                   <option value="2">Bachelor's degree</option>
@@ -69,8 +81,8 @@ const FormUsers = ({nextStep, prevStep, onAdd }) => {
           <div class="row justify-content-md-center text-center">
             <div class="col-md-auto">
               <div class="form-group">
-                <label htmlFor="frequenza"><h4>How frequently do you watch movies?</h4></label>
-                <select class="form-control" name="frequenza" required onChange={(e) => setFrequenza(e.target.value)}>
+                <label htmlFor='frequenza'><h4>How frequently do you watch movies?</h4></label>
+                <select class="form-control" id="frequenza" required onChange={(e) => setFrequenza(e.target.value)}>
                   <option value="">Open this selection menu</option>
                   <option value="1">None or once a week</option>
                   <option value="2">Twice a week</option>
@@ -81,8 +93,8 @@ const FormUsers = ({nextStep, prevStep, onAdd }) => {
 
             <div class="col-md-auto">
               <div class="form-group">
-                <label htmlFor="recSys"><h4>Have you ever used a recommender system?</h4><h6>(like Amazon, YouTube, Netflix)</h6></label>
-                <select class="form-control" name="recSys" required onChange={(e) => setRecSys(e.target.value)}>
+                <label htmlFor='recSys'><h4>Have you ever used a recommender system?</h4><h6>(like Amazon, YouTube, Netflix)</h6></label>
+                <select class="form-control" id="recSys" required onChange={(e) => setRecSys(e.target.value)}>
                   <option value="">Open this selection menu</option>
                   <option value="si">Yes</option>
                   <option value="no">No</option>
@@ -93,7 +105,7 @@ const FormUsers = ({nextStep, prevStep, onAdd }) => {
 
           <div class="row justify-content-md-center text-center">
             <div class="col">
-              <button type='submit' name="infoUtente" class="btn btn-primary btn-lg">Continue </button>
+              <button type='submit' class="btn btn-primary btn-lg">Continue </button>
             </div>
           </div>
         </form>
@@ -103,4 +115,4 @@ const FormUsers = ({nextStep, prevStep, onAdd }) => {
   );
 }
 
-export default FormUsers;
+export default withRouter(FormUsers);

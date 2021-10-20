@@ -19,250 +19,42 @@
     {
       "eta": "1",
       "genere": "uomo",
-      "titoloStudio": "1",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 56
-    },
-    {
-      "eta": "1",
-      "genere": "uomo",
-      "titoloStudio": "1",
-      "frequenza": "2",
-      "recSys": "si",
-      "id": 57
-    },
-    {
-      "eta": "2",
-      "genere": "uomo",
       "titoloStudio": "2",
       "frequenza": "1",
       "recSys": "si",
-      "id": 58
-    },
-    {
-      "eta": "2",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 59
+      "id": 159
     },
     {
       "eta": "2",
       "genere": "uomo",
-      "titoloStudio": "1",
-      "frequenza": "2",
-      "recSys": "si",
-      "id": 60
-    },
-    {
-      "eta": "1",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 61
-    },
-    {
-      "eta": "1",
-      "genere": "uomo",
-      "titoloStudio": "1",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 62
-    },
-    {
-      "eta": "2",
-      "genere": "uomo",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 63
-    },
-    {
-      "eta": "2",
-      "genere": "donna",
-      "titoloStudio": "3",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 64
-    },
-    {
-      "eta": "3",
-      "genere": "uomo",
-      "titoloStudio": "1",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 65
-    },
-    {
-      "eta": "1",
-      "genere": "uomo",
-      "titoloStudio": "1",
-      "frequenza": "2",
-      "recSys": "si",
-      "id": 66
-    },
-    {
-      "eta": "2",
-      "genere": "donna",
-      "titoloStudio": "1",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 67
-    },
-    {
-      "eta": "1",
-      "genere": "uomo",
-      "titoloStudio": "3",
-      "frequenza": "2",
-      "recSys": "si",
-      "id": 68
-    },
-    {
-      "eta": "2",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 69
-    },
-    {
-      "eta": "1",
-      "genere": "uomo",
-      "titoloStudio": "1",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 70
-    },
-    {
-      "eta": "2",
-      "genere": "uomo",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 71
-    },
-    {
-      "eta": "2",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 72
-    },
-    {
-      "eta": "2",
-      "genere": "uomo",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 73
-    },
-    {
-      "eta": "2",
-      "genere": "donna",
       "titoloStudio": "2",
       "frequenza": "2",
       "recSys": "si",
-      "id": 74
+      "id": 161
     },
     {
       "eta": "1",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 75
-    },
-    {
-      "eta": "1",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 76
-    },
-    {
-      "eta": "1",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 77
-    },
-    {
-      "eta": "2",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 78
-    },
-    {
-      "eta": "2",
       "genere": "uomo",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 79
-    },
-    {
-      "eta": "2",
-      "genere": "donna",
       "titoloStudio": "2",
       "frequenza": "2",
       "recSys": "si",
-      "id": 80
+      "id": 166
     },
     {
-      "eta": "1",
+      "eta": "2",
       "genere": "uomo",
-      "titoloStudio": "3",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 81
-    },
-    {
-      "eta": "1",
-      "genere": "uomo",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 82
-    },
-    {
-      "eta": "1",
-      "genere": "uomo",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 83
-    },
-    {
-      "eta": "1",
-      "genere": "donna",
-      "titoloStudio": "2",
-      "frequenza": "1",
-      "recSys": "si",
-      "id": 84
-    },
-    {
-      "eta": "1",
-      "genere": "donna",
       "titoloStudio": "2",
       "frequenza": "2",
-      "recSys": "si",
-      "id": 85
+      "recSys": "no",
+      "id": 167
     },
     {
       "eta": "1",
-      "genere": "uomo",
+      "genere": "donna",
       "titoloStudio": "2",
       "frequenza": "1",
-      "recSys": "si",
-      "id": 86
+      "recSys": "no",
+      "id": 168
     }
   ],
   "contexts": [
@@ -274,195 +66,57 @@
     },
     {
       "attenzione": "High",
-      "compagnia": "",
+      "compagnia": "Partner",
       "umore": "",
-      "id": 51
+      "id": 155
     },
     {
       "attenzione": "High",
-      "compagnia": "",
+      "compagnia": "Partner",
       "umore": "",
-      "id": 52
+      "id": 171
+    },
+    {
+      "attenzione": "",
+      "compagnia": "Partner",
+      "umore": "Bad",
+      "id": 172
     },
     {
       "attenzione": "High",
-      "compagnia": "",
+      "compagnia": "Family",
       "umore": "",
-      "id": 53
+      "id": 173
     },
     {
       "attenzione": "High",
+      "compagnia": "Partner",
+      "umore": "",
+      "id": 174
+    },
+    {
+      "attenzione": "",
       "compagnia": "Partner",
       "umore": "Good",
-      "id": 54
+      "id": 175
     },
     {
       "attenzione": "High",
-      "compagnia": "",
-      "umore": "",
-      "id": 55
-    },
-    {
-      "attenzione": "Low",
-      "compagnia": "",
-      "umore": "",
-      "id": 56
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "",
-      "umore": "",
-      "id": 57
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "",
-      "umore": "",
-      "id": 58
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "Family",
-      "umore": "",
-      "id": 59
-    },
-    {
-      "attenzione": "Low",
-      "compagnia": "",
-      "umore": "",
-      "id": 60
-    },
-    {
-      "attenzione": "Low",
-      "compagnia": "Family",
-      "umore": "Good",
-      "id": 61
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "",
-      "umore": "",
-      "id": 62
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "",
-      "umore": "",
-      "id": 63
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "",
-      "umore": "",
-      "id": 64
-    },
-    {
-      "attenzione": "High",
-      "compagnia": "",
-      "umore": "",
-      "id": 65
+      "compagnia": "Partner",
+      "umore": "Bad",
+      "id": 176
     },
     {
       "attenzione": "",
       "compagnia": "Partner",
       "umore": "",
-      "id": 66
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 67
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 68
+      "id": 177
     },
     {
       "attenzione": "",
       "compagnia": "Family",
       "umore": "",
-      "id": 69
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Family",
-      "umore": "",
-      "id": 70
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 71
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 72
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Family",
-      "umore": "",
-      "id": 73
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 74
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 75
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Family",
-      "umore": "",
-      "id": 76
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 77
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 78
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Partner",
-      "umore": "",
-      "id": 79
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Family",
-      "umore": "",
-      "id": 80
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Family",
-      "umore": "",
-      "id": 81
-    },
-    {
-      "attenzione": "",
-      "compagnia": "Family",
-      "umore": "",
-      "id": 82
+      "id": 178
     }
   ],
   "unigrammi": [
@@ -1126,7 +780,8 @@
         "Drama"
       ],
       "numrating": 254331,
-      "rating": 8.3
+      "rating": 8.3,
+      "attori": []
     },
     {
       "id": 3,
@@ -1186,7 +841,8 @@
         "War"
       ],
       "numrating": 497657,
-      "rating": 8.5
+      "rating": 8.5,
+      "attori": []
     },
     {
       "id": 7,
@@ -1212,7 +868,8 @@
         "Mystery"
       ],
       "numrating": 143141,
-      "rating": 8.2
+      "rating": 8.2,
+      "attori": []
     },
     {
       "id": 9,
@@ -1224,7 +881,8 @@
         "Thriller"
       ],
       "numrating": 151469,
-      "rating": 8.1
+      "rating": 8.1,
+      "attori": []
     },
     {
       "id": 10,
@@ -1269,7 +927,8 @@
         "Film-Noir"
       ],
       "numrating": 135185,
-      "rating": 8.3
+      "rating": 8.3,
+      "attori": []
     },
     {
       "id": 13,
@@ -1279,7 +938,8 @@
         "Drama"
       ],
       "numrating": 62454,
-      "rating": 8.3
+      "rating": 8.3,
+      "attori": []
     },
     {
       "id": 14,
@@ -1321,7 +981,8 @@
         "Drama"
       ],
       "numrating": 47559,
-      "rating": 8.2
+      "rating": 8.2,
+      "attori": []
     },
     {
       "id": 17,
@@ -1331,7 +992,8 @@
         "Drama"
       ],
       "numrating": 114492,
-      "rating": 8.2
+      "rating": 8.2,
+      "attori": []
     },
     {
       "id": 18,
@@ -1419,7 +1081,8 @@
         "Romance"
       ],
       "numrating": 88699,
-      "rating": 8.1
+      "rating": 8.1,
+      "attori": []
     },
     {
       "id": 24,
@@ -1446,7 +1109,8 @@
         "History"
       ],
       "numrating": 352646,
-      "rating": 8.3
+      "rating": 8.3,
+      "attori": []
     },
     {
       "id": 26,
@@ -1487,7 +1151,8 @@
         "War"
       ],
       "numrating": 55148,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 29,
@@ -1499,7 +1164,8 @@
         "Thriller"
       ],
       "numrating": 586654,
-      "rating": 8.1
+      "rating": 8.1,
+      "attori": []
     },
     {
       "id": 30,
@@ -1526,7 +1192,8 @@
         "Fantasy"
       ],
       "numrating": 262559,
-      "rating": 8.2
+      "rating": 8.2,
+      "attori": []
     },
     {
       "id": 32,
@@ -1567,7 +1234,8 @@
         "Drama"
       ],
       "numrating": 154805,
-      "rating": 8.1
+      "rating": 8.1,
+      "attori": []
     },
     {
       "id": 35,
@@ -1593,7 +1261,8 @@
         "Drama"
       ],
       "numrating": 283031,
-      "rating": 8.2
+      "rating": 8.2,
+      "attori": []
     },
     {
       "id": 37,
@@ -1754,7 +1423,8 @@
         "Music"
       ],
       "numrating": 124142,
-      "rating": 7.9
+      "rating": 7.9,
+      "attori": []
     },
     {
       "id": 48,
@@ -1780,7 +1450,8 @@
         "War"
       ],
       "numrating": 53771,
-      "rating": 7.8
+      "rating": 7.8,
+      "attori": []
     },
     {
       "id": 50,
@@ -1847,7 +1518,8 @@
         "War"
       ],
       "numrating": 134590,
-      "rating": 8.3
+      "rating": 8.3,
+      "attori": []
     },
     {
       "id": 55,
@@ -1889,7 +1561,8 @@
         "Romance"
       ],
       "numrating": 100678,
-      "rating": 7.9
+      "rating": 7.9,
+      "attori": []
     },
     {
       "id": 58,
@@ -1917,7 +1590,8 @@
         "Sci-Fi"
       ],
       "numrating": 61710,
-      "rating": 7.8
+      "rating": 7.8,
+      "attori": []
     },
     {
       "id": 60,
@@ -1929,7 +1603,8 @@
         "Mystery"
       ],
       "numrating": 114610,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 61,
@@ -1984,7 +1659,8 @@
         "Adventure"
       ],
       "numrating": 164399,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 65,
@@ -1995,7 +1671,8 @@
         "Drama"
       ],
       "numrating": 347307,
-      "rating": 8.1
+      "rating": 8.1,
+      "attori": []
     },
     {
       "id": 66,
@@ -2021,7 +1698,8 @@
         "Romance"
       ],
       "numrating": 33386,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 68,
@@ -2033,7 +1711,8 @@
         "Mystery"
       ],
       "numrating": 63715,
-      "rating": 7.9
+      "rating": 7.9,
+      "attori": []
     },
     {
       "id": 69,
@@ -2043,7 +1722,8 @@
         "Drama"
       ],
       "numrating": 95793,
-      "rating": 7.8
+      "rating": 7.8,
+      "attori": []
     },
     {
       "id": 70,
@@ -2053,7 +1733,8 @@
         "Drama"
       ],
       "numrating": 84397,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 71,
@@ -2063,7 +1744,8 @@
         "Horror"
       ],
       "numrating": 347696,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 72,
@@ -2074,7 +1756,8 @@
         "Horror"
       ],
       "numrating": 491806,
-      "rating": 7.9
+      "rating": 7.9,
+      "attori": []
     },
     {
       "id": 73,
@@ -2099,7 +1782,8 @@
         "Drama"
       ],
       "numrating": 40082,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 75,
@@ -2110,7 +1794,8 @@
         "War"
       ],
       "numrating": 365745,
-      "rating": 8.1
+      "rating": 8.1,
+      "attori": []
     },
     {
       "id": 76,
@@ -2138,7 +1823,8 @@
         "War"
       ],
       "numrating": 52964,
-      "rating": 8.1
+      "rating": 8.1,
+      "attori": []
     },
     {
       "id": 78,
@@ -2150,7 +1836,8 @@
         "Romance"
       ],
       "numrating": 68764,
-      "rating": 7.7
+      "rating": 7.7,
+      "attori": []
     },
     {
       "id": 79,
@@ -2162,7 +1849,8 @@
         "Drama"
       ],
       "numrating": 242311,
-      "rating": 7.9
+      "rating": 7.9,
+      "attori": []
     },
     {
       "id": 80,
@@ -2187,7 +1875,8 @@
         "History"
       ],
       "numrating": 212114,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 82,
@@ -2244,7 +1933,8 @@
         "History"
       ],
       "numrating": 323423,
-      "rating": 8.1
+      "rating": 8.1,
+      "attori": []
     },
     {
       "id": 86,
@@ -2256,7 +1946,8 @@
         "Musical"
       ],
       "numrating": 29458,
-      "rating": 7.9
+      "rating": 7.9,
+      "attori": []
     },
     {
       "id": 87,
@@ -2299,7 +1990,8 @@
         "Romance"
       ],
       "numrating": 25964,
-      "rating": 8.1
+      "rating": 8.1,
+      "attori": []
     },
     {
       "id": 90,
@@ -2311,7 +2003,8 @@
         "Comedy"
       ],
       "numrating": 174818,
-      "rating": 7.7
+      "rating": 7.7,
+      "attori": []
     },
     {
       "id": 91,
@@ -2323,7 +2016,8 @@
         "Adventure"
       ],
       "numrating": 630376,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 92,
@@ -2333,7 +2027,8 @@
         "Comedy"
       ],
       "numrating": 155697,
-      "rating": 7.6
+      "rating": 7.6,
+      "attori": []
     },
     {
       "id": 93,
@@ -2359,7 +2054,8 @@
         "Romance"
       ],
       "numrating": 18852,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 95,
@@ -2447,7 +2143,8 @@
         "Family"
       ],
       "numrating": 126842,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 101,
@@ -2474,7 +2171,8 @@
         "Thriller"
       ],
       "numrating": 108238,
-      "rating": 7.7
+      "rating": 7.7,
+      "attori": []
     },
     {
       "id": 103,
@@ -2486,7 +2184,8 @@
         "Fantasy"
       ],
       "numrating": 150703,
-      "rating": 7.8
+      "rating": 7.8,
+      "attori": []
     },
     {
       "id": 104,
@@ -2544,7 +2243,8 @@
         "Family"
       ],
       "numrating": 193853,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 108,
@@ -2616,7 +2316,8 @@
         "Thriller"
       ],
       "numrating": 28640,
-      "rating": 7.7
+      "rating": 7.7,
+      "attori": []
     },
     {
       "id": 113,
@@ -2626,7 +2327,8 @@
         "Horror"
       ],
       "numrating": 95813,
-      "rating": 7.4
+      "rating": 7.4,
+      "attori": []
     },
     {
       "id": 114,
@@ -2669,7 +2371,8 @@
         "Romance"
       ],
       "numrating": 197295,
-      "rating": 7.9
+      "rating": 7.9,
+      "attori": []
     },
     {
       "id": 117,
@@ -2696,7 +2399,8 @@
         "Comedy"
       ],
       "numrating": 588160,
-      "rating": 7.8
+      "rating": 7.8,
+      "attori": []
     },
     {
       "id": 119,
@@ -2708,7 +2412,8 @@
         "Romance"
       ],
       "numrating": 75799,
-      "rating": 7.6
+      "rating": 7.6,
+      "attori": []
     },
     {
       "id": 120,
@@ -2720,7 +2425,8 @@
         "War"
       ],
       "numrating": 66814,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 121,
@@ -2732,7 +2438,8 @@
         "History"
       ],
       "numrating": 79235,
-      "rating": 7.7
+      "rating": 7.7,
+      "attori": []
     },
     {
       "id": 122,
@@ -2758,7 +2465,8 @@
         "Drama"
       ],
       "numrating": 39771,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 124,
@@ -2770,7 +2478,8 @@
         "Thriller"
       ],
       "numrating": 47569,
-      "rating": 7.9
+      "rating": 7.9,
+      "attori": []
     },
     {
       "id": 125,
@@ -2782,7 +2491,8 @@
         "Thriller"
       ],
       "numrating": 183203,
-      "rating": 7.6
+      "rating": 7.6,
+      "attori": []
     },
     {
       "id": 126,
@@ -2794,7 +2504,8 @@
         "History"
       ],
       "numrating": 62508,
-      "rating": 7.5
+      "rating": 7.5,
+      "attori": []
     },
     {
       "id": 127,
@@ -2806,7 +2517,8 @@
         "Musical"
       ],
       "numrating": 91887,
-      "rating": 7.5
+      "rating": 7.5,
+      "attori": []
     },
     {
       "id": 128,
@@ -2832,7 +2544,8 @@
         "Fantasy"
       ],
       "numrating": 121599,
-      "rating": 7.7
+      "rating": 7.7,
+      "attori": []
     },
     {
       "id": 130,
@@ -2844,7 +2557,8 @@
         "Comedy"
       ],
       "numrating": 69210,
-      "rating": 7.7
+      "rating": 7.7,
+      "attori": []
     },
     {
       "id": 131,
@@ -2856,7 +2570,8 @@
         "Drama"
       ],
       "numrating": 69360,
-      "rating": 7.6
+      "rating": 7.6,
+      "attori": []
     },
     {
       "id": 132,
@@ -2883,7 +2598,8 @@
         "Romance"
       ],
       "numrating": 21783,
-      "rating": 7.8
+      "rating": 7.8,
+      "attori": []
     },
     {
       "id": 134,
@@ -2895,7 +2611,8 @@
         "Sci-Fi"
       ],
       "numrating": 276581,
-      "rating": 7.8
+      "rating": 7.8,
+      "attori": []
     },
     {
       "id": 135,
@@ -2969,7 +2686,8 @@
         "War"
       ],
       "numrating": 41065,
-      "rating": 7.6
+      "rating": 7.6,
+      "attori": []
     },
     {
       "id": 140,
@@ -2981,7 +2699,8 @@
         "Drama"
       ],
       "numrating": 46461,
-      "rating": 7.4
+      "rating": 7.4,
+      "attori": []
     },
     {
       "id": 141,
@@ -2992,7 +2711,8 @@
         "Drama"
       ],
       "numrating": 94891,
-      "rating": 7.3
+      "rating": 7.3,
+      "attori": []
     },
     {
       "id": 142,
@@ -3002,7 +2722,8 @@
         "Comedy"
       ],
       "numrating": 108082,
-      "rating": 7.5
+      "rating": 7.5,
+      "attori": []
     },
     {
       "id": 143,
@@ -3041,7 +2762,8 @@
         "War"
       ],
       "numrating": 30144,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 146,
@@ -3053,7 +2775,8 @@
         "Drama"
       ],
       "numrating": 93748,
-      "rating": 7.8
+      "rating": 7.8,
+      "attori": []
     },
     {
       "id": 147,
@@ -3079,7 +2802,8 @@
         "Romance"
       ],
       "numrating": 174120,
-      "rating": 7.5
+      "rating": 7.5,
+      "attori": []
     },
     {
       "id": 149,
@@ -3135,7 +2859,8 @@
         "Drama"
       ],
       "numrating": 120925,
-      "rating": 7.3
+      "rating": 7.3,
+      "attori": []
     },
     {
       "id": 153,
@@ -3174,7 +2899,8 @@
         "Thriller"
       ],
       "numrating": 173636,
-      "rating": 7.8
+      "rating": 7.8,
+      "attori": []
     },
     {
       "id": 156,
@@ -3245,7 +2971,8 @@
         "Drama"
       ],
       "numrating": 39630,
-      "rating": 7.7
+      "rating": 7.7,
+      "attori": []
     },
     {
       "id": 161,
@@ -3257,7 +2984,8 @@
         "Sci-Fi"
       ],
       "numrating": 43387,
-      "rating": 7.6
+      "rating": 7.6,
+      "attori": []
     },
     {
       "id": 162,
@@ -3299,7 +3027,8 @@
         "Sci-Fi"
       ],
       "numrating": 63060,
-      "rating": 7.5
+      "rating": 7.5,
+      "attori": []
     },
     {
       "id": 165,
@@ -3343,7 +3072,8 @@
         "Sci-Fi"
       ],
       "numrating": 521853,
-      "rating": 7.3
+      "rating": 7.3,
+      "attori": []
     },
     {
       "id": 168,
@@ -3354,7 +3084,8 @@
         "Drama"
       ],
       "numrating": 73423,
-      "rating": 7.3
+      "rating": 7.3,
+      "attori": []
     },
     {
       "id": 169,
@@ -3378,7 +3109,8 @@
         "War"
       ],
       "numrating": 10573,
-      "rating": 8.1
+      "rating": 8.1,
+      "attori": []
     },
     {
       "id": 171,
@@ -3419,7 +3151,8 @@
         "Drama"
       ],
       "numrating": 53460,
-      "rating": 7.4
+      "rating": 7.4,
+      "attori": []
     },
     {
       "id": 174,
@@ -3444,7 +3177,8 @@
         "Romance"
       ],
       "numrating": 26985,
-      "rating": 7.6
+      "rating": 7.6,
+      "attori": []
     },
     {
       "id": 176,
@@ -3456,7 +3190,8 @@
         "History"
       ],
       "numrating": 29567,
-      "rating": 7.7
+      "rating": 7.7,
+      "attori": []
     },
     {
       "id": 177,
@@ -3467,7 +3202,8 @@
         "Romance"
       ],
       "numrating": 20182,
-      "rating": 7.7
+      "rating": 7.7,
+      "attori": []
     },
     {
       "id": 178,
@@ -3478,7 +3214,8 @@
         "Drama"
       ],
       "numrating": 21684,
-      "rating": 7.6
+      "rating": 7.6,
+      "attori": []
     },
     {
       "id": 179,
@@ -3504,7 +3241,8 @@
         "Music"
       ],
       "numrating": 120909,
-      "rating": 7.7
+      "rating": 7.7,
+      "attori": []
     },
     {
       "id": 181,
@@ -3575,7 +3313,8 @@
         "Musical"
       ],
       "numrating": 37023,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 186,
@@ -3602,7 +3341,8 @@
         "Thriller"
       ],
       "numrating": 35655,
-      "rating": 7.8
+      "rating": 7.8,
+      "attori": []
     },
     {
       "id": 188,
@@ -3629,7 +3369,8 @@
         "Fantasy"
       ],
       "numrating": 160626,
-      "rating": 7.6
+      "rating": 7.6,
+      "attori": []
     },
     {
       "id": 190,
@@ -3670,7 +3411,8 @@
         "Mystery"
       ],
       "numrating": 164768,
-      "rating": 7.4
+      "rating": 7.4,
+      "attori": []
     },
     {
       "id": 193,
@@ -3729,7 +3471,8 @@
         "Musical"
       ],
       "numrating": 208460,
-      "rating": 7.1
+      "rating": 7.1,
+      "attori": []
     },
     {
       "id": 197,
@@ -3740,7 +3483,8 @@
         "Sport"
       ],
       "numrating": 41117,
-      "rating": 7.5
+      "rating": 7.5,
+      "attori": []
     },
     {
       "id": 198,
@@ -3752,7 +3496,8 @@
         "Family"
       ],
       "numrating": 237144,
-      "rating": 7.6
+      "rating": 7.6,
+      "attori": []
     },
     {
       "id": 199,
@@ -3780,7 +3525,8 @@
         "Drama"
       ],
       "numrating": 119859,
-      "rating": 7.8
+      "rating": 7.8,
+      "attori": []
     },
     {
       "id": 201,
@@ -3792,7 +3538,8 @@
         "Thriller"
       ],
       "numrating": 78997,
-      "rating": 7.2
+      "rating": 7.2,
+      "attori": []
     },
     {
       "id": 202,
@@ -3804,7 +3551,8 @@
         "Film-Noir"
       ],
       "numrating": 21294,
-      "rating": 8
+      "rating": 8,
+      "attori": []
     },
     {
       "id": 203,
@@ -3831,7 +3579,8 @@
         "War"
       ],
       "numrating": 22584,
-      "rating": 7.6
+      "rating": 7.6,
+      "attori": []
     },
     {
       "id": 205,
@@ -3858,7 +3607,8 @@
         "Romance"
       ],
       "numrating": 203664,
-      "rating": 7.4
+      "rating": 7.4,
+      "attori": []
     },
     {
       "id": 207,
@@ -3869,7 +3619,8 @@
         "Drama"
       ],
       "numrating": 36382,
-      "rating": 7.4
+      "rating": 7.4,
+      "attori": []
     },
     {
       "id": 208,
@@ -3895,7 +3646,8 @@
         "Drama"
       ],
       "numrating": 30854,
-      "rating": 7.3
+      "rating": 7.3,
+      "attori": []
     },
     {
       "id": 210,
@@ -3905,7 +3657,8 @@
         "Drama"
       ],
       "numrating": 42494,
-      "rating": 7.3
+      "rating": 7.3,
+      "attori": []
     },
     {
       "id": 211,
@@ -3917,7 +3670,8 @@
         " Film-Noir"
       ],
       "numrating": 19025,
-      "rating": 7.9
+      "rating": 7.9,
+      "attori": []
     },
     {
       "id": 212,
@@ -3929,7 +3683,8 @@
         "History"
       ],
       "numrating": 88869,
-      "rating": 7.4
+      "rating": 7.4,
+      "attori": []
     },
     {
       "id": 213,
@@ -3941,7 +3696,8 @@
         "Thriller"
       ],
       "numrating": 181971,
-      "rating": 7.6
+      "rating": 7.6,
+      "attori": []
     },
     {
       "id": 214,
@@ -3953,7 +3709,8 @@
         "Family"
       ],
       "numrating": 114001,
-      "rating": 7.2
+      "rating": 7.2,
+      "attori": []
     },
     {
       "id": 215,
@@ -3965,7 +3722,8 @@
         "Romance"
       ],
       "numrating": 26147,
-      "rating": 7.7
+      "rating": 7.7,
+      "attori": []
     },
     {
       "id": 216,
@@ -3993,7 +3751,8 @@
         "Drama"
       ],
       "numrating": 378354,
-      "rating": 7.2
+      "rating": 7.2,
+      "attori": []
     },
     {
       "id": 218,
@@ -4005,7 +3764,8 @@
         "Drama"
       ],
       "numrating": 19601,
-      "rating": 7.2
+      "rating": 7.2,
+      "attori": []
     },
     {
       "id": 219,
@@ -4062,7 +3822,8 @@
         "Sci-Fi"
       ],
       "numrating": 99792,
-      "rating": 6.6
+      "rating": 6.6,
+      "attori": []
     },
     {
       "id": 223,
@@ -4073,7 +3834,8 @@
         "Mystery"
       ],
       "numrating": 309286,
-      "rating": 7.1
+      "rating": 7.1,
+      "attori": []
     },
     {
       "id": 224,
@@ -4085,7 +3847,8 @@
         "Western"
       ],
       "numrating": 9483,
-      "rating": 5.6
+      "rating": 5.6,
+      "attori": []
     },
     {
       "id": 225,
@@ -4111,7 +3874,8 @@
         "Family"
       ],
       "numrating": 75322,
-      "rating": 6.2
+      "rating": 6.2,
+      "attori": []
     },
     {
       "id": 227,
@@ -4123,7 +3887,8 @@
         "Romance"
       ],
       "numrating": 17603,
-      "rating": 6.9
+      "rating": 6.9,
+      "attori": []
     },
     {
       "id": 228,
@@ -4135,7 +3900,8 @@
         "Sci-Fi"
       ],
       "numrating": 663386,
-      "rating": 7.3
+      "rating": 7.3,
+      "attori": []
     },
     {
       "id": 229,
@@ -4162,7 +3928,8 @@
         "War"
       ],
       "numrating": 22534,
-      "rating": 6.2
+      "rating": 6.2,
+      "attori": []
     },
     {
       "id": 231,
@@ -4174,7 +3941,8 @@
         "Fantasy"
       ],
       "numrating": 225808,
-      "rating": 7.6
+      "rating": 7.6,
+      "attori": []
     },
     {
       "id": 232,
@@ -4201,7 +3969,8 @@
         "Fantasy"
       ],
       "numrating": 1282,
-      "rating": 6.5
+      "rating": 6.5,
+      "attori": []
     },
     {
       "id": 234,
@@ -4213,7 +3982,8 @@
         "Fantasy"
       ],
       "numrating": 377389,
-      "rating": 7
+      "rating": 7,
+      "attori": []
     },
     {
       "id": 235,
@@ -4223,7 +3993,8 @@
         "Comedy"
       ],
       "numrating": 17108,
-      "rating": 5.4
+      "rating": 5.4,
+      "attori": []
     },
     {
       "id": 236,
@@ -4235,7 +4006,8 @@
         "Thriller"
       ],
       "numrating": 245530,
-      "rating": 7
+      "rating": 7,
+      "attori": []
     },
     {
       "id": 237,
@@ -4246,7 +4018,8 @@
         "Family"
       ],
       "numrating": 90105,
-      "rating": 6
+      "rating": 6,
+      "attori": []
     },
     {
       "id": 238,
@@ -4271,7 +4044,8 @@
         "Drama"
       ],
       "numrating": 77510,
-      "rating": 6.8
+      "rating": 6.8,
+      "attori": []
     },
     {
       "id": 240,
@@ -4282,7 +4056,8 @@
         "Drama"
       ],
       "numrating": 8184,
-      "rating": 7
+      "rating": 7,
+      "attori": []
     },
     {
       "id": 241,
@@ -4294,7 +4069,8 @@
         "Comedy"
       ],
       "numrating": 18959,
-      "rating": 5.3
+      "rating": 5.3,
+      "attori": []
     },
     {
       "id": 242,
@@ -4379,7 +4155,8 @@
         "Horror"
       ],
       "numrating": 71974,
-      "rating": 5.7
+      "rating": 5.7,
+      "attori": []
     },
     {
       "id": 248,
@@ -4391,7 +4168,8 @@
         "Thriller"
       ],
       "numrating": 86882,
-      "rating": 6
+      "rating": 6,
+      "attori": []
     },
     {
       "id": 249,
@@ -4401,7 +4179,8 @@
         "Comedy"
       ],
       "numrating": 22901,
-      "rating": 6.5
+      "rating": 6.5,
+      "attori": []
     },
     {
       "id": 250,
@@ -4442,7 +4221,8 @@
         "Music"
       ],
       "numrating": 4729,
-      "rating": 7.1
+      "rating": 7.1,
+      "attori": []
     },
     {
       "id": 253,
@@ -4454,7 +4234,8 @@
         "Family"
       ],
       "numrating": 33489,
-      "rating": 7.2
+      "rating": 7.2,
+      "attori": []
     },
     {
       "id": 254,
@@ -4466,7 +4247,8 @@
         "Fantasy"
       ],
       "numrating": 20509,
-      "rating": 6.6
+      "rating": 6.6,
+      "attori": []
     },
     {
       "id": 255,
@@ -4492,7 +4274,8 @@
         "Fantasy"
       ],
       "numrating": 17694,
-      "rating": 4.4
+      "rating": 4.4,
+      "attori": []
     },
     {
       "id": 257,
@@ -4519,7 +4302,8 @@
         "Sci-Fi"
       ],
       "numrating": 41056,
-      "rating": 2.4
+      "rating": 2.4,
+      "attori": []
     },
     {
       "id": 259,
@@ -4531,7 +4315,8 @@
         "Thriller"
       ],
       "numrating": 96478,
-      "rating": 6.4
+      "rating": 6.4,
+      "attori": []
     },
     {
       "id": 260,
@@ -4543,7 +4328,8 @@
         "Romance"
       ],
       "numrating": 13191,
-      "rating": 7.4
+      "rating": 7.4,
+      "attori": []
     },
     {
       "id": 261,
@@ -4555,7 +4341,8 @@
         "Thriller"
       ],
       "numrating": 234922,
-      "rating": 6.5
+      "rating": 6.5,
+      "attori": []
     },
     {
       "id": 262,
@@ -4567,7 +4354,8 @@
         "Fantasy"
       ],
       "numrating": 64006,
-      "rating": 6.8
+      "rating": 6.8,
+      "attori": []
     },
     {
       "id": 263,
@@ -4711,7 +4499,8 @@
         "Thriller"
       ],
       "numrating": 365189,
-      "rating": 7.6
+      "rating": 7.6,
+      "attori": []
     },
     {
       "id": 273,
@@ -4958,6 +4747,20 @@
       "attori": [
         "Sandra Bullock"
       ]
+    }
+  ],
+  "prefs": [
+    {
+      "trasparenza": 3,
+      "persuasione": 3,
+      "coinvolgimento": 3,
+      "fiducia": 3
+    },
+    {
+      "trasparenza": 3,
+      "persuasione": 3,
+      "coinvolgimento": 3,
+      "fiducia": 3
     }
   ]
 }

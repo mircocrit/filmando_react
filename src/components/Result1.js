@@ -1,102 +1,61 @@
 import React, { Component } from 'react';
 import { useState, useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Card from './Card';
 import Form from './Form';
 
-const Result1 = ({nextStep, prevStep, onAdd, randomMovie }) => {
-  const [id, setId] = useState(10) 
-  const [nome, setNome] = useState('') 
-  const [anno, setAnno] = useState(0) 
-  const [genere, setGenere] = useState([]) 
-  const [numrating, setNumrating] = useState(0)
-  const [rating, setRating] = useState(0) 
-  const [attori, setAttori] = useState([])
-  const [spiegazione, setSpiegazione] = useState('')
+const Result1 = ({history, attenzione, compagnia, umore}) => {
+  const [isLoading, setIsLoading] = useState(true)
+  const [listmovie, setListmovie] = useState([])
+  const [movie, setMovie] = useState({
+    id: 0,
+    nome: "",
+    anno: 0,
+    genere: [],
+    numrating: 0,
+    rating: 0,
+    attori: [],
+ })
+ 
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
 
   useEffect(() => {
-  const fetchMovie = async (id) => {
-    const res = await fetch(`http://localhost:5000/movies/${id}`)
-    const data = await res.json()
-    setData(data)
-  }
-    const movie = randomMovie()
-    fetchMovie(movie)
+    setIsLoading(true)
+    fetch(`http://localhost:5000/unigrammi?attenzione=${attenzione}&compagnia=${compagnia}&umore=${umore}`)
+      .then(response => response.json())
+      .then(data =>{
+          const lista = data[0].listafilm
+          setListmovie(lista)
+          console.log(lista)
+          return lista
+      })
+      .then(lista => {
+          fetch(`http://localhost:5000/movies/${lista[getRandomInt(10)]}`)
+            .then(resp => resp.json())
+            .then(object =>{
+                setMovie({
+                  id: object.id, 
+                  nome: object.nome, 
+                  anno: object.anno, 
+                  genere: object.genere, 
+                  numrating: object.numrating,
+                  rating: object.rating, 
+                  attori: object.attori
+                })
+                setIsLoading(false)
+              })
+        })
   }, [])
-
-
-
-  const setData = ({id, nome, anno, genere, numrating, rating, attori }) => {
-    setId(id)
-    setNome(nome)
-    setAnno(anno)
-    setGenere(genere)
-    setNumrating(numrating)
-    setRating(rating)
-    setAttori(attori)
-  }
   
-  /*
-  const [tecnica, setTecnica] = useState('')        //Centroide   FrasiSingole
-
-  const [pref1, setPref1] = useState('')    //trasparenza
-  const [pref2, setPref2] = useState('')    //persuasione
-  const [pref3, setPref3] = useState('')    //coinvolgimento
-  const [pref4, setPref4] = useState('')    //fiducia
-  */
-
     return (
       <div className="container">
-        <div class="container-fluid bg-light">
-          <div class="row justify-content-md-center">
-            <div class="col-xs-6 col-md-5 p-0">
-              <div class="card bg-dark text-white border-0">
-                <img class="card-img" src={`poster/${id}.jpg`} alt="Card image"/>
-                <div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
-                  <h3 class="card-text font-weight-light">{nome}</h3>
-                  <h6 class="card-text font-weight-light">{anno}</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Card movie={movie} />
 
-      <div class="card text-center bg-dark">
-        <div class="card-body">
-          <div class="row text-center">
-            <div class="col-4 p-0">       
-              <img class="card-img" src={`jpg/${id}.jpg`} style= {{width: "95px", height: "143px"}} alt=""/>
-            </div>
-            <div class="col-8 p-0">
-              <h5 class="card-text">
-                {
-                //movie.genere.forEach(gen => (
-                //  <span class="badge badge-danger"> {gen} </span>)
-                //)
-                }
-              </h5>
-              <h5 class="card-text">
-                {
-                //movie.attori.forEach(act => (
-                //     <span class="badge badge-primary">" {act} "</span>)
-                //)
-                }
-              </h5>
-              <h5 class="card-text">
-                <span class="badge badge-warning">{rating}</span><br/>
-                <span class="badge badge-dark font-weight-light">{numrating}</span>
-              </h5>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card text-center bg-white">
-        <div class="card-body">
-          <h2 class="card-title">Justification 1</h2>
-          <p class="card-text">{spiegazione}</p>
-        </div>
-      </div>
+        <Form history={history}/>
     </div>
+
   );
 }
 

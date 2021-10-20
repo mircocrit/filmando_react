@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { withRouter } from 'react-router-dom';
 
 
-const Start = ({nextStep}) => {
+const Start = ({history}) => {
+  function handleClick() {
+    history.push("/infoUtente");
+  };
+
     return (
       <div class="container-fluid bg-light">
         <div class="row text-center">
@@ -32,7 +37,7 @@ const Start = ({nextStep}) => {
 
         <div class="row text-center">
           <div class="col">
-            <button type="button" onClick={nextStep} class="btn btn-primary btn-lg">Start!</button>
+            <button type="button" onClick={handleClick} class="btn btn-primary btn-lg">Start!</button>
           </div>
         </div>
         <br/>
@@ -41,4 +46,4 @@ const Start = ({nextStep}) => {
   
 }
 
-export default Start;
+export default withRouter(Start);

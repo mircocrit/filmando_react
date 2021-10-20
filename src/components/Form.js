@@ -2,13 +2,43 @@ import React, { Component } from 'react';
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Form = () => {
+const Form = ({history}) => {
+    const [spiegazione, setSpiegazione] = useState('')
+    const [trasparenza, setTrasparenza] = useState(3)
+    const [persuasione, setPersuasione] = useState(3)
+    const [coinvolgimento, setCoinvolgimento] = useState(3)
+    const [fiducia, setFiducia] = useState(3)
+
+    const onSubmit = (e) => {
+        e.preventDefault()
+        addPrefs({trasparenza, persuasione, coinvolgimento, fiducia})
+        history.push("/end")   //replace
+    }
+    
+    function addPrefs(pref){
+        fetch('http://localhost:5000/prefs', 
+        {
+          method: 'POST',
+          headers: {
+            'Content-type': 'application/json'
+          },
+          body: JSON.stringify(pref),
+        })
+      }
+
     return (
       <div class="container-fluid bg-light">
+        <div class="card text-center bg-white">
+          <div class="card-body">
+            <h2 class="card-title">Justification 1</h2>
+            <p class="card-text">{spiegazione}</p>
+          </div>
+        </div>
         <br/>
+
         <div class="row text-center">
           <div class="col">
-            <h5 style="color: #c62828;">
+            <h5 style={{color: "#c62828"}}>
               Given that the goal of the system is to generate a justification which is
               adapted on the different contexts of consumption, please, answer the following questions<br/>
             </h5>
@@ -16,71 +46,59 @@ const Form = () => {
           </div>
         </div>
 
-        <form action="" method="POST">
+        <form className='add-form' onSubmit={onSubmit}>
           <br/>
           <div class="row justify-content-md-center text-center">
-
             <div class="col-md-3">
               <div class="slidecontainer">
-                <label for="pref1">
-                  <h6>I understood why the movie was suggested to me:</h6>
-                </label>
-                <div align="center" class="font-weight-bold" id="valorepref1">3</div>
-                <input type="range" min="1" max="5" value="3" class="slider" id="pref1" name="pref1" 
-                      onfocus="coloreRange(this.id)" 
-                      onclick="coloreRange(this.id)" onchange="coloreRange(this.id)"/>
+                <label htmlFor="pref1"> <h6>I understood why the movie was suggested to me:</h6></label>
+                <div align="center" class="font-weight-bold">{trasparenza}</div>
+                  <input type="range" class="slider" id="pref1" min="1" max="5" 
+                       value={trasparenza}
+                       onChange={(e) => setTrasparenza(e.target.value)}/>
               </div>
             </div>
 
             <div class="col-md-3">
               <div class="slidecontainer">
-                <label for="pref2">
-                  <h6>The justification made the suggestion more convincing:</h6>
-                </label>
-                <div align="center" class="font-weight-bold" id="valorepref2">3</div>
-                <input type="range" min="1" max="5" value="3" class="slider" id="pref2" name="pref2" 
-                      onfocus="coloreRange(this.id)" 
-                      onclick="coloreRange(this.id)" onchange="coloreRange(this.id)"/>
+                <label htmlFor="pref2"> <h6>The justification made the suggestion more convincing:</h6> </label>
+                <div align="center" class="font-weight-bold">{persuasione}</div>
+                  <input type="range" class="slider" id="pref2" min="1" max="5" 
+                       value={persuasione}
+                       onChange={(e) => setPersuasione(e.target.value)}/>
               </div>
             </div>
 
             <div class="col-md-3">
               <div class="slidecontainer">
-                <label for="pref3">
-                  <h6>The justification allowed me to discover new information about the movie</h6>
-                </label>
-                <div align="center" class="font-weight-bold" id="valorepref3">3</div>
-                <input type="range" min="1" max="5" value="3" class="slider" id="pref3" name="pref3" 
-                        onfocus="coloreRange(this.id)" 
-                        onclick="coloreRange(this.id)" onchange="coloreRange(this.id)"/>
+                <label htmlFor="pref3"><h6>The justification allowed me to discover new information about the movie</h6> </label>
+                <div align="center" class="font-weight-bold">{coinvolgimento}</div>
+                  <input type="range" class="slider" id="pref3" min="1" max="5" 
+                       value={coinvolgimento}
+                       onChange={(e) => setCoinvolgimento(e.target.value)}/>
               </div>
             </div>
 
             <div class="col-md-3">
               <div class="slidecontainer">
-                <label for="pref4">
-                  <h6>The justification has increased my level of trust in the recommender system:</h6>
-                </label>
-                <div align="center" class="font-weight-bold" id="valorepref4">3</div>
-                <input type="range" min="1" max="5" value="3" class="slider" id="pref4" name="pref4" 
-                      onfocus="coloreRange(this.id)" 
-                      onclick="coloreRange(this.id)" onchange="coloreRange(this.id)"/>
+                <label htmlFor="pref4"> <h6>The justification has increased my level of trust in the recommender system:</h6></label>
+                <div align="center" class="font-weight-bold">{fiducia}</div>
+                  <input type="range" class="slider" id="pref4" min="1" max="5" 
+                       value={fiducia}
+                       onChange={(e) => setFiducia(e.target.value)}/>
               </div>
             </div>
-
           </div>
 
           <div class="row justify-content-md-center text-center">
             <div class="col-md-4">
-              <button type="submit" name="valutazione1" class="btn btn-primary btn-lg">Send feedback </button>
+              <button type="submit" class="btn btn-primary btn-lg">Send feedback</button>
             </div>
           </div>
 
         </form>
-
         <br/>
       </div>
-
     );
 }
 
