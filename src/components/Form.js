@@ -3,7 +3,6 @@ import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Form = ({history}) => {
-    const [spiegazione, setSpiegazione] = useState('')
     const [trasparenza, setTrasparenza] = useState(3)
     const [persuasione, setPersuasione] = useState(3)
     const [coinvolgimento, setCoinvolgimento] = useState(3)
@@ -22,7 +21,6 @@ const Form = ({history}) => {
 
     const onSubmit = (e) => {
         e.preventDefault()
-        console.log(trasparenza, persuasione, coinvolgimento, fiducia)
         addPrefs({trasparenza, persuasione, coinvolgimento, fiducia})
         history.push("/results3")
     }
@@ -30,14 +28,7 @@ const Form = ({history}) => {
 
     return (
       <div class="container-fluid bg-light">
-        <div class="card text-center bg-white">
-          <div class="card-body">
-            <h2 class="card-title">Justification 1</h2>
-            <p class="card-text">{spiegazione}</p>
-          </div>
-        </div>
-        <br/>
-
+        
         <div class="row text-center">
           <div class="col">
             <h5 style={{color: "#c62828"}}>

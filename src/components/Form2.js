@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Form2 = ({history}) => {
+const Form2 = ({history, url, prefapi}) => {
     const [preferenza, setPreferenza] = useState(0)
     const [trasparenza, setTrasparenza] = useState(0)
     const [persuasione, setPersuasione] = useState(0)
@@ -12,11 +12,11 @@ const Form2 = ({history}) => {
     const onSubmit = (e) => {
         e.preventDefault()
         addPrefs({preferenza, trasparenza, persuasione, coinvolgimento, fiducia})
-        history.push("/end")   //replace
+        history.push(url)
     }
     
     function addPrefs(pref){
-        fetch('http://localhost:5000/prefs2', 
+        fetch(`http://localhost:5000/${prefapi}`,
         {
           method: 'POST',
           headers: {
