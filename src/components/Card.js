@@ -28,20 +28,20 @@ const Card = ({movie}) => {
                     <h5 className="card-text">
                         {movie.genere.length !== 0 && (
                             movie.genere.map( (gen) =>
-                                <span className="badge badge-danger"> {gen}</span>
+                                <span className="badge bg-danger"> {gen}</span>
                             )
                         )}
                     </h5>
                     <h5 className="card-text">
                         {movie.attori.length !== 0 && (
                             movie.attori.map( (act) =>
-                                <span className="badge badge-primary"> {act}</span>
+                                <span className="badge bg-primary"> {act}</span>
                             )
                         )}
                     </h5>
                     <h5 className="card-text">
-                        <span className="badge badge-warning">{movie.rating}</span><br/>
-                        <span className="badge badge-dark font-weight-light">{movie.numrating}</span>
+                        <span className="badge bg-warning">{movie.rating}</span><br/>
+                        <span className="badge bg-dark font-weight-light">{movie.numrating}</span>
                     </h5>
                 </div>
               </div>
