@@ -28,7 +28,7 @@ const FormContexts = ({history, saveContexts}) => {
     }
     addContexts({attenzione, compagnia, umore})
     saveContexts({attenzione, compagnia, umore})
-    history.push("/results1")
+    history.push("/results1")   //replace
   }
 
     return (
